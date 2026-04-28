@@ -1,0 +1,37 @@
+{
+  "args": {
+    "limit": null,
+    "max_tokens": 4096,
+    "model": "gemini-3-pro",
+    "pilot": false,
+    "provider": "gemini",
+    "save_raw": false,
+    "smoke": true,
+    "tasks_file": null
+  },
+  "argv": [
+    "scripts/run_llm_eval.py",
+    "--smoke",
+    "--provider",
+    "gemini",
+    "--model",
+    "gemini-3-pro"
+  ],
+  "command": "scripts/run_llm_eval.py --smoke --provider gemini --model gemini-3-pro",
+  "n_tasks": 3,
+  "prompt_versions": {
+    "AMR_SCAFFOLDED_SYSTEM_PROMPT_sha16": "2bad362b647d93d7",
+    "DBRECONCILE_INSTRUCTIONS_sha16": "6c9134e249bf3b07",
+    "GENERIC_SYSTEM_PROMPT_sha16": "31c02c69ec25fce1",
+    "GENOPHENO_INSTRUCTIONS_sha16": "531e8a5356b5de2c",
+    "MECHREASON_INSTRUCTIONS_sha16": "c0faae007bf9a13e"
+  },
+  "run_name": "smoke_20260425T223537Z",
+  "task_id_list": [
+    "mechreason_kp_000009",
+    "mechreason_kp_000712",
+    "mechreason_kp_000391"
+  ],
+  "task_subset_sha256_16": "a34ab0df130f514d",
+  "timestamp_utc": "2026-04-25T22:35:37.989649+00:00"
+}

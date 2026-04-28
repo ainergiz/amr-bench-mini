@@ -1,0 +1,518 @@
+{
+  "ci_min_n": 10,
+  "hard_adjusted": {
+    "Claude Opus 4.7": {
+      "by_group": {
+        "cefoxitin_substrate_decoy": {
+          "k": 10,
+          "mech_correct": 10,
+          "n": 10
+        },
+        "cefoxitin_true_hydrolysis_control": {
+          "k": 3,
+          "mech_correct": 3,
+          "n": 3
+        },
+        "drug_specificity_positive_control": {
+          "k": 4,
+          "mech_correct": 4,
+          "n": 4
+        },
+        "hybrid_porin_beta_lactamase": {
+          "k": 3,
+          "mech_correct": 4,
+          "n": 4
+        },
+        "hypothesisgen_insufficient_evidence": {
+          "k": 6,
+          "mech_correct": 6,
+          "n": 24
+        },
+        "intrinsic_acquired_ontology": {
+          "k": 3,
+          "mech_correct": 3,
+          "n": 3
+        },
+        "regulator_lof_vs_direct_efflux": {
+          "k": 1,
+          "mech_correct": 1,
+          "n": 2
+        }
+      },
+      "k": 30,
+      "n": 50
+    },
+    "GPT-5.4": {
+      "by_group": {
+        "cefoxitin_substrate_decoy": {
+          "k": 4,
+          "mech_correct": 4,
+          "n": 10
+        },
+        "cefoxitin_true_hydrolysis_control": {
+          "k": 3,
+          "mech_correct": 3,
+          "n": 3
+        },
+        "drug_specificity_positive_control": {
+          "k": 4,
+          "mech_correct": 4,
+          "n": 4
+        },
+        "hybrid_porin_beta_lactamase": {
+          "k": 4,
+          "mech_correct": 4,
+          "n": 4
+        },
+        "hypothesisgen_insufficient_evidence": {
+          "k": 5,
+          "mech_correct": 5,
+          "n": 24
+        },
+        "intrinsic_acquired_ontology": {
+          "k": 3,
+          "mech_correct": 3,
+          "n": 3
+        },
+        "regulator_lof_vs_direct_efflux": {
+          "k": 2,
+          "mech_correct": 2,
+          "n": 2
+        }
+      },
+      "k": 25,
+      "n": 50
+    },
+    "Gemini 3.1 Pro": {
+      "by_group": {
+        "cefoxitin_substrate_decoy": {
+          "k": 10,
+          "mech_correct": 10,
+          "n": 10
+        },
+        "cefoxitin_true_hydrolysis_control": {
+          "k": 3,
+          "mech_correct": 3,
+          "n": 3
+        },
+        "drug_specificity_positive_control": {
+          "k": 4,
+          "mech_correct": 4,
+          "n": 4
+        },
+        "hybrid_porin_beta_lactamase": {
+          "k": 4,
+          "mech_correct": 4,
+          "n": 4
+        },
+        "hypothesisgen_insufficient_evidence": {
+          "k": 6,
+          "mech_correct": 6,
+          "n": 24
+        },
+        "intrinsic_acquired_ontology": {
+          "k": 3,
+          "mech_correct": 3,
+          "n": 3
+        },
+        "regulator_lof_vs_direct_efflux": {
+          "k": 2,
+          "mech_correct": 2,
+          "n": 2
+        }
+      },
+      "k": 32,
+      "n": 50
+    }
+  },
+  "hard_strict": {
+    "Claude Opus 4.7": {
+      "by_group": {
+        "cefoxitin_substrate_decoy": {
+          "k": 10,
+          "mech_correct": 10,
+          "n": 10
+        },
+        "cefoxitin_true_hydrolysis_control": {
+          "k": 3,
+          "mech_correct": 3,
+          "n": 3
+        },
+        "drug_specificity_positive_control": {
+          "k": 4,
+          "mech_correct": 4,
+          "n": 4
+        },
+        "hybrid_porin_beta_lactamase": {
+          "k": 3,
+          "mech_correct": 4,
+          "n": 4
+        },
+        "hypothesisgen_insufficient_evidence": {
+          "k": 6,
+          "mech_correct": 6,
+          "n": 24
+        },
+        "intrinsic_acquired_ontology": {
+          "k": 0,
+          "mech_correct": 0,
+          "n": 3
+        },
+        "regulator_lof_vs_direct_efflux": {
+          "k": 1,
+          "mech_correct": 1,
+          "n": 2
+        }
+      },
+      "k": 27,
+      "n": 50
+    },
+    "GPT-5.4": {
+      "by_group": {
+        "cefoxitin_substrate_decoy": {
+          "k": 4,
+          "mech_correct": 4,
+          "n": 10
+        },
+        "cefoxitin_true_hydrolysis_control": {
+          "k": 3,
+          "mech_correct": 3,
+          "n": 3
+        },
+        "drug_specificity_positive_control": {
+          "k": 4,
+          "mech_correct": 4,
+          "n": 4
+        },
+        "hybrid_porin_beta_lactamase": {
+          "k": 4,
+          "mech_correct": 4,
+          "n": 4
+        },
+        "hypothesisgen_insufficient_evidence": {
+          "k": 5,
+          "mech_correct": 5,
+          "n": 24
+        },
+        "intrinsic_acquired_ontology": {
+          "k": 0,
+          "mech_correct": 0,
+          "n": 3
+        },
+        "regulator_lof_vs_direct_efflux": {
+          "k": 2,
+          "mech_correct": 2,
+          "n": 2
+        }
+      },
+      "k": 22,
+      "n": 50
+    },
+    "Gemini 3.1 Pro": {
+      "by_group": {
+        "cefoxitin_substrate_decoy": {
+          "k": 10,
+          "mech_correct": 10,
+          "n": 10
+        },
+        "cefoxitin_true_hydrolysis_control": {
+          "k": 3,
+          "mech_correct": 3,
+          "n": 3
+        },
+        "drug_specificity_positive_control": {
+          "k": 4,
+          "mech_correct": 4,
+          "n": 4
+        },
+        "hybrid_porin_beta_lactamase": {
+          "k": 4,
+          "mech_correct": 4,
+          "n": 4
+        },
+        "hypothesisgen_insufficient_evidence": {
+          "k": 6,
+          "mech_correct": 6,
+          "n": 24
+        },
+        "intrinsic_acquired_ontology": {
+          "k": 0,
+          "mech_correct": 0,
+          "n": 3
+        },
+        "regulator_lof_vs_direct_efflux": {
+          "k": 2,
+          "mech_correct": 2,
+          "n": 2
+        }
+      },
+      "k": 29,
+      "n": 50
+    }
+  },
+  "pilot_adjusted": {
+    "Claude Opus 4.7": {
+      "by_group": {
+        "efflux": {
+          "k": 6,
+          "mech_correct": 6,
+          "n": 6
+        },
+        "enzymatic_inactivation": {
+          "k": 12,
+          "mech_correct": 12,
+          "n": 12
+        },
+        "insufficient_evidence": {
+          "k": 2,
+          "mech_correct": 2,
+          "n": 8
+        },
+        "metabolic_bypass": {
+          "k": 4,
+          "mech_correct": 4,
+          "n": 4
+        },
+        "permeability_loss": {
+          "k": 10,
+          "mech_correct": 10,
+          "n": 10
+        },
+        "regulator_loss_of_function": {
+          "k": 1,
+          "mech_correct": 1,
+          "n": 2
+        },
+        "target_modification": {
+          "k": 8,
+          "mech_correct": 8,
+          "n": 8
+        }
+      },
+      "k": 43,
+      "n": 50
+    },
+    "GPT-5.4": {
+      "by_group": {
+        "efflux": {
+          "k": 6,
+          "mech_correct": 6,
+          "n": 6
+        },
+        "enzymatic_inactivation": {
+          "k": 12,
+          "mech_correct": 12,
+          "n": 12
+        },
+        "insufficient_evidence": {
+          "k": 2,
+          "mech_correct": 2,
+          "n": 8
+        },
+        "metabolic_bypass": {
+          "k": 3,
+          "mech_correct": 3,
+          "n": 4
+        },
+        "permeability_loss": {
+          "k": 8,
+          "mech_correct": 8,
+          "n": 10
+        },
+        "regulator_loss_of_function": {
+          "k": 2,
+          "mech_correct": 2,
+          "n": 2
+        },
+        "target_modification": {
+          "k": 8,
+          "mech_correct": 8,
+          "n": 8
+        }
+      },
+      "k": 41,
+      "n": 50
+    },
+    "Gemini 3.1 Pro": {
+      "by_group": {
+        "efflux": {
+          "k": 6,
+          "mech_correct": 6,
+          "n": 6
+        },
+        "enzymatic_inactivation": {
+          "k": 12,
+          "mech_correct": 12,
+          "n": 12
+        },
+        "insufficient_evidence": {
+          "k": 2,
+          "mech_correct": 2,
+          "n": 8
+        },
+        "metabolic_bypass": {
+          "k": 4,
+          "mech_correct": 4,
+          "n": 4
+        },
+        "permeability_loss": {
+          "k": 10,
+          "mech_correct": 10,
+          "n": 10
+        },
+        "regulator_loss_of_function": {
+          "k": 2,
+          "mech_correct": 2,
+          "n": 2
+        },
+        "target_modification": {
+          "k": 8,
+          "mech_correct": 8,
+          "n": 8
+        }
+      },
+      "k": 44,
+      "n": 50
+    }
+  },
+  "pilot_strict": {
+    "Claude Opus 4.7": {
+      "by_group": {
+        "efflux": {
+          "k": 6,
+          "mech_correct": 6,
+          "n": 6
+        },
+        "enzymatic_inactivation": {
+          "k": 9,
+          "mech_correct": 9,
+          "n": 10
+        },
+        "insufficient_evidence": {
+          "k": 2,
+          "mech_correct": 2,
+          "n": 8
+        },
+        "intrinsic": {
+          "k": 0,
+          "mech_correct": 0,
+          "n": 3
+        },
+        "metabolic_bypass": {
+          "k": 4,
+          "mech_correct": 4,
+          "n": 4
+        },
+        "permeability_loss": {
+          "k": 10,
+          "mech_correct": 10,
+          "n": 10
+        },
+        "regulator_loss_of_function": {
+          "k": 1,
+          "mech_correct": 1,
+          "n": 2
+        },
+        "target_modification": {
+          "k": 7,
+          "mech_correct": 7,
+          "n": 7
+        }
+      },
+      "k": 39,
+      "n": 50
+    },
+    "GPT-5.4": {
+      "by_group": {
+        "efflux": {
+          "k": 6,
+          "mech_correct": 6,
+          "n": 6
+        },
+        "enzymatic_inactivation": {
+          "k": 9,
+          "mech_correct": 9,
+          "n": 10
+        },
+        "insufficient_evidence": {
+          "k": 2,
+          "mech_correct": 2,
+          "n": 8
+        },
+        "intrinsic": {
+          "k": 0,
+          "mech_correct": 0,
+          "n": 3
+        },
+        "metabolic_bypass": {
+          "k": 3,
+          "mech_correct": 3,
+          "n": 4
+        },
+        "permeability_loss": {
+          "k": 8,
+          "mech_correct": 8,
+          "n": 10
+        },
+        "regulator_loss_of_function": {
+          "k": 2,
+          "mech_correct": 2,
+          "n": 2
+        },
+        "target_modification": {
+          "k": 7,
+          "mech_correct": 7,
+          "n": 7
+        }
+      },
+      "k": 37,
+      "n": 50
+    },
+    "Gemini 3.1 Pro": {
+      "by_group": {
+        "efflux": {
+          "k": 6,
+          "mech_correct": 6,
+          "n": 6
+        },
+        "enzymatic_inactivation": {
+          "k": 9,
+          "mech_correct": 9,
+          "n": 10
+        },
+        "insufficient_evidence": {
+          "k": 2,
+          "mech_correct": 2,
+          "n": 8
+        },
+        "intrinsic": {
+          "k": 0,
+          "mech_correct": 0,
+          "n": 3
+        },
+        "metabolic_bypass": {
+          "k": 4,
+          "mech_correct": 4,
+          "n": 4
+        },
+        "permeability_loss": {
+          "k": 10,
+          "mech_correct": 10,
+          "n": 10
+        },
+        "regulator_loss_of_function": {
+          "k": 2,
+          "mech_correct": 2,
+          "n": 2
+        },
+        "target_modification": {
+          "k": 7,
+          "mech_correct": 7,
+          "n": 7
+        }
+      },
+      "k": 40,
+      "n": 50
+    }
+  }
+}

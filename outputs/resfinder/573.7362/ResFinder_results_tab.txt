@@ -1,0 +1,37 @@
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+rmtC	100.00	846/846	100.0	1..846	573.7362.con.0002 type=plasmid length=140825	49261..50106	Amikacin, Gentamicin, Tobramycin, Kanamycin, Arbekacin, Sisomicin, Isepamicin	AB194779
+aac(6')-Ib3	100.00	555/555	100.0	1..555	573.7362.con.0002 type=plasmid length=140825	54469..55023	Amikacin, Tobramycin	X60321
+aadA2b	99.87	780/780	100.0	1..780	573.7362.con.0001 type=chromosome length=5435743	3857869..3858648	Spectinomycin, Streptomycin	D43625
+aac(3)-IIa	100.00	861/861	100.0	1..861	573.7362.con.0004 type=plasmid length=85161	27143..28003	Apramycin, Gentamicin, Tobramycin, Dibekacin, Netilmicin, Sisomicin, Gentamicin, Tobramycin	CP023555
+aph(6)-Id	100.00	837/837	100.0	1..837	573.7362.con.0004 type=plasmid length=85161	15875..16711	Streptomycin	M28829
+aph(3'')-Ib	100.00	804/804	100.0	1..804	573.7362.con.0004 type=plasmid length=85161	15072..15875	Streptomycin	AF321551
+aac(6')-Ib	100.00	606/606	100.0	1..606	573.7362.con.0004 type=plasmid length=85161	70931..71536	Amikacin, Tobramycin, Amikacin, Tobramycin, Kanamycin	M21682
+aac(6')-Ib-cr	100.00	600/600	100.0	1..600	573.7362.con.0004 type=plasmid length=85161	30407..31006	Tobramycin, Dibekacin, Amikacin, Sisomicin, Netilmicin, Fluoroquinolone, Ciprofloxacin	DQ303918
+blaCMY-6	100.00	1146/1146	100.0	1..1146	573.7362.con.0002 type=plasmid length=140825	96858..98003	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefotaxime, Cefoxitin, Ceftazidime, Piperacillin, Piperacillin+Tazobactam, Ticarcillin, Ticarcillin+Clavulanic acid	AJ011293
+blaNDM-1	100.00	813/813	100.0	1..813	573.7362.con.0002 type=plasmid length=140825	47203..48015	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ceftazidime+Avibactam, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam, Temocillin	FN396876
+blaCTX-M-15	100.00	876/876	100.0	1..876	573.7362.con.0001 type=chromosome length=5435743	747564..748439	Amoxicillin, Ampicillin, Aztreonam, Cefepime, Cefotaxime, Ceftazidime, Ceftriaxone, Piperacillin, Ticarcillin	AY044436
+blaSHV-182	99.88	861/861	100.0	1..861	573.7362.con.0001 type=chromosome length=5435743	3542520..3543380	Unknown Beta-lactam	KP050489
+blaSHV-159	99.88	861/861	100.0	1..861	573.7362.con.0001 type=chromosome length=5435743	3542520..3543380	Unknown Beta-lactam	JX121126
+blaSHV-158	99.88	861/861	100.0	1..861	573.7362.con.0001 type=chromosome length=5435743	3542520..3543380	Unknown Beta-lactam	JX121125
+blaCTX-M-15	100.00	876/876	100.0	1..876	573.7362.con.0004 type=plasmid length=85161	21114..21989	Amoxicillin, Ampicillin, Aztreonam, Cefepime, Cefotaxime, Ceftazidime, Ceftriaxone, Piperacillin, Ticarcillin	AY044436
+blaTEM-1B	100.00	861/861	100.0	1..861	573.7362.con.0004 type=plasmid length=85161	17432..18292	Amoxicillin, Ampicillin, Cephalothin, Piperacillin, Ticarcillin	AY458016
+blaSHV-185	99.77	861/861	100.0	1..861	573.7362.con.0004 type=plasmid length=85161	31946..32806	Unknown Beta-lactam	KM233164
+blaSHV-11	99.77	861/861	100.0	1..861	573.7362.con.0004 type=plasmid length=85161	31946..32806	Amoxicillin, Ampicillin, Cephalothin, Piperacillin, Ticarcillin	X98101
+blaSHV-70	99.77	861/861	100.0	1..861	573.7362.con.0004 type=plasmid length=85161	31946..32806	Amoxicillin, Ampicillin, Aztreonam, Cefepime, Cefotaxime, Ceftazidime, Ceftriaxone, Piperacillin, Ticarcillin	DQ013287
+blaSHV-69	99.77	861/861	100.0	1..861	573.7362.con.0004 type=plasmid length=85161	31946..32806	Unknown Beta-lactam	DQ174308
+blaSHV-31	99.77	861/861	100.0	1..861	573.7362.con.0004 type=plasmid length=85161	31946..32806	Amoxicillin, Ampicillin, Aztreonam, Cefepime, Cefotaxime, Ceftazidime, Ceftriaxone, Piperacillin, Ticarcillin	AY277255
+blaSHV-25	99.77	861/861	100.0	1..861	573.7362.con.0004 type=plasmid length=85161	31946..32806	Amoxicillin, Ampicillin, Cephalothin, Piperacillin, Ticarcillin	AF208796
+blaSHV-13	99.77	861/861	100.0	1..861	573.7362.con.0004 type=plasmid length=85161	31946..32806	Amoxicillin, Ampicillin, Aztreonam, Cefepime, Cefotaxime, Ceftazidime, Ceftriaxone, Piperacillin, Ticarcillin	AF164577
+blaOXA-1	100.00	831/831	100.0	1..831	573.7362.con.0004 type=plasmid length=85161	29446..30276	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Piperacillin, Piperacillin+Tazobactam	HQ170510
+fosA6	98.81	420/420	100.0	1..420	573.7362.con.0001 type=chromosome length=5435743	52222..52641	Fosfomycin	KU254579
+mph(A)	100.00	906/906	100.0	1..906	573.7362.con.0003 type=plasmid length=117755	80030..80935	Erythromycin, Azithromycin, Spiramycin, Telithromycin	D16251
+catB3	100.00	442/633	69.826224328594	1..442	573.7362.con.0004 type=plasmid length=85161	28867..29308	Chloramphenicol	AJ009818
+catB3	100.00	442/633	69.826224328594	1..442	573.7362.con.0004 type=plasmid length=85161	28867..29308	Chloramphenicol	U13880
+OqxB	100.00	3153/3153	100.0	1..3153	573.7362.con.0001 type=chromosome length=5435743	1982296..1985448	Chloramphenicol, Nalidixic acid, Ciprofloxacin, Trimethoprim	EU370913
+OqxA	100.00	1176/1176	100.0	1..1176	573.7362.con.0001 type=chromosome length=5435743	1985472..1986647	Chloramphenicol, Nalidixic acid, Ciprofloxacin, Trimethoprim	EU370913
+qnrB9	99.69	645/645	100.0	1..645	573.7362.con.0004 type=plasmid length=85161	42375..43019	Ciprofloxacin	EF526508
+sul1	100.00	840/840	100.0	1..840	573.7362.con.0002 type=plasmid length=140825	53120..53959	Sulfamethoxazole	U12338
+sul1	100.00	840/840	100.0	1..840	573.7362.con.0001 type=chromosome length=5435743	3856525..3857364	Sulfamethoxazole	U12338
+sul2	100.00	816/816	100.0	1..816	573.7362.con.0004 type=plasmid length=85161	14196..15011	Sulfamethoxazole	AY034138
+tet(A)	100.00	1200/1200	100.0	1..1200	573.7362.con.0003 type=plasmid length=117755	77071..78270	Doxycycline, Tetracycline	AJ517790
+dfrA14	100.00	474/474	100.0	1..474	573.7362.con.0004 type=plasmid length=85161	60363..60836	Trimethoprim	KF921535

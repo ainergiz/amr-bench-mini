@@ -1,0 +1,9 @@
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+ant(2'')-Ia	100.00	534/534	100.0	1..534	573.13637.con.0052 type=contig length=10304	4712..5245	Gentamicin, Tobramycin	X04555
+blaSHV-5	100.00	861/861	100.0	1..861	573.13637.con.0056 type=contig length=7997	2643..3503	Amoxicillin, Ampicillin, Aztreonam, Cefepime, Cefotaxime, Ceftazidime, Ceftriaxone, Piperacillin, Ticarcillin	X55640
+blaOXA-2	100.00	828/828	100.0	1..828	573.13637.con.0052 type=contig length=10304	3815..4642	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Ceftazidime, Piperacillin	DQ112222
+fosA	100.00	420/420	100.0	1..420	573.13637.con.0004 type=contig length=261938	238700..239119	Fosfomycin	AFBO01000747
+OqxB	98.57	3153/3153	100.0	1..3153	573.13637.con.0031 type=contig length=52845	31912..35064	Chloramphenicol, Nalidixic acid, Ciprofloxacin, Trimethoprim	EU370913
+OqxA	99.23	1176/1176	100.0	1..1176	573.13637.con.0031 type=contig length=52845	30713..31888	Chloramphenicol, Nalidixic acid, Ciprofloxacin, Trimethoprim	EU370913
+sul1	100.00	840/840	100.0	1..840	573.13637.con.0052 type=contig length=10304	2179..3018	Sulfamethoxazole	X15024
+tet(A)	100.00	1200/1200	100.0	1..1200	573.13637.con.0043 type=contig length=22112	5402..6601	Doxycycline, Tetracycline	AJ517790

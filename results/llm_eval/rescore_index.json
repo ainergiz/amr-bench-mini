@@ -1,0 +1,12 @@
+{
+  "runs": [
+    {
+      "adjusted_acc": 0.64,
+      "n_adjusted": 50,
+      "n_flips": 3,
+      "n_strict": 50,
+      "run": "hard_tool_gemini-3.1-pro-preview_20260426T112234Z",
+      "strict_acc": 0.58
+    }
+  ]
+}

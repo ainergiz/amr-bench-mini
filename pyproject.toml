@@ -1,0 +1,12 @@
+[project]
+name = "amr-bench-mini"
+version = "0.1.0"
+description = "Pilot benchmark for agentic antimicrobial-resistance evidence synthesis."
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

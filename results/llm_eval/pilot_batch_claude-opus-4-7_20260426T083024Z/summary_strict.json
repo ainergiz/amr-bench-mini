@@ -1,0 +1,83 @@
+{
+  "by_track": {
+    "mechreason": {
+      "accuracy": 0.78,
+      "json_valid_rate": 1.0,
+      "mean_evidence_items": 4.48,
+      "n": 50
+    }
+  },
+  "mechreason_breakdown": {
+    "by_class": {
+      "efflux": {
+        "accuracy": 1.0,
+        "correct": 6,
+        "mech_class_accuracy": 1.0,
+        "mech_correct": 6,
+        "n": 6
+      },
+      "enzymatic_inactivation": {
+        "accuracy": 0.9,
+        "correct": 9,
+        "mech_class_accuracy": 0.9,
+        "mech_correct": 9,
+        "n": 10
+      },
+      "insufficient_evidence": {
+        "accuracy": 0.25,
+        "correct": 2,
+        "mech_class_accuracy": 0.25,
+        "mech_correct": 2,
+        "n": 8
+      },
+      "intrinsic": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "mech_class_accuracy": 0.0,
+        "mech_correct": 0,
+        "n": 3
+      },
+      "metabolic_bypass": {
+        "accuracy": 1.0,
+        "correct": 4,
+        "mech_class_accuracy": 1.0,
+        "mech_correct": 4,
+        "n": 4
+      },
+      "permeability_loss": {
+        "accuracy": 1.0,
+        "correct": 10,
+        "mech_class_accuracy": 1.0,
+        "mech_correct": 10,
+        "n": 10
+      },
+      "regulator_loss_of_function": {
+        "accuracy": 0.5,
+        "correct": 1,
+        "mech_class_accuracy": 0.5,
+        "mech_correct": 1,
+        "n": 2
+      },
+      "target_modification": {
+        "accuracy": 1.0,
+        "correct": 7,
+        "mech_class_accuracy": 1.0,
+        "mech_correct": 7,
+        "n": 7
+      }
+    },
+    "n_mechreason": 50,
+    "parse_or_call_errors": 0,
+    "subscore_rates": {
+      "gene_family_correct": 0.84,
+      "layers_complete": 1.0,
+      "mechanism_class_correct": 0.78
+    }
+  },
+  "overall": {
+    "accuracy": 0.78,
+    "json_valid_rate": 1.0,
+    "mean_evidence_items": 4.48,
+    "n": 50
+  }
+}

@@ -1,0 +1,11 @@
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+aph(4)-Ia	100.00	1026/1026	100.0	1..1026	573.24407.con.0045 type=contig length=11211	9004..10029	Hygromycin	V01499
+aac(3)-IV	100.00	777/777	100.0	1..777	573.24407.con.0045 type=contig length=11211	10258..11034	Gentamicin, Tobramycin	DQ241380
+aadA1	100.00	792/792	100.0	1..792	573.24407.con.0041 type=contig length=16302	4621..5412	Spectinomycin, Streptomycin	JQ414041
+aadA2b	99.87	780/780	100.0	1..780	573.24407.con.0041 type=contig length=16302	7026..7805	Spectinomycin, Streptomycin	D43625
+blaTEM-1A	100.00	815/861	94.65737514518003	1..815	573.24407.con.0065 type=contig length=1663	1..815	Amoxicillin, Ampicillin, Cephalothin, Piperacillin, Ticarcillin	HM749966
+blaSHV-5	100.00	861/861	100.0	1..861	573.24407.con.0057 type=contig length=3880	2527..3387	Amoxicillin, Ampicillin, Aztreonam, Cefepime, Cefotaxime, Ceftazidime, Ceftriaxone, Piperacillin, Ticarcillin	X55640
+fosA6	98.81	420/420	100.0	1..420	573.24407.con.0025 type=contig length=57786	43290..43709	Fosfomycin	KU254579
+cmlA1	99.92	1260/1260	100.0	1..1260	573.24407.con.0041 type=contig length=16302	5505..6764	Chloramphenicol	M64556
+sul3	100.00	792/792	100.0	1..792	573.24407.con.0041 type=contig length=16302	2148..2939	Sulfamethoxazole	AJ459418
+tet(D)	100.00	1185/1185	100.0	1..1185	573.24407.con.0058 type=contig length=3777	826..2010	Doxycycline, Tetracycline	AF467077

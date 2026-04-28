@@ -1,0 +1,50 @@
+{
+  "by_track": {
+    "mechreason": {
+      "accuracy": 1.0,
+      "json_valid_rate": 1.0,
+      "mean_evidence_items": 3.0,
+      "n": 2
+    }
+  },
+  "cost_estimate_usd": {
+    "input_tokens": 5206,
+    "model": "gemini-3.1-pro-preview",
+    "note": "No price table entry for this model. Set AMR_BENCH_PRICING_OVERRIDES to a JSON file with the same shape as PRICE_TABLE to attach a price.",
+    "output_tokens": 1557,
+    "provider": "gemini"
+  },
+  "mechreason_breakdown": {
+    "by_class": {
+      "permeability_loss": {
+        "accuracy": 1.0,
+        "correct": 2,
+        "n": 2
+      }
+    },
+    "n_mechreason": 2,
+    "parse_or_call_errors": 0,
+    "subscore_rates": {
+      "gene_family_correct": 1.0,
+      "layers_complete": 1.0,
+      "mechanism_class_correct": 1.0
+    }
+  },
+  "model": "gemini-3.1-pro-preview",
+  "n_tasks": 2,
+  "overall": {
+    "accuracy": 1.0,
+    "json_valid_rate": 1.0,
+    "mean_evidence_items": 3.0,
+    "n": 2
+  },
+  "provider": "gemini",
+  "run_name": "hard_tool_smoke_20260426T112142Z",
+  "timestamp_utc": "2026-04-26T11:22:27.531582+00:00",
+  "usage_totals": {
+    "input_tokens": 5206,
+    "output_tokens": 1557,
+    "reasoning_tokens": 3502,
+    "total_tokens": 10265
+  }
+}

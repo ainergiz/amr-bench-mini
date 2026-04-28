@@ -1,0 +1,53 @@
+{
+  "batch_elapsed_s": 1150.8,
+  "batch_id": "batches/7jw5w6dgflemgw8ieg7fr4augmk1051u0mvb",
+  "by_track": {
+    "mechreason": {
+      "accuracy": 1.0,
+      "json_valid_rate": 1.0,
+      "mean_evidence_items": 3.0,
+      "n": 5
+    }
+  },
+  "card_substrate_context": false,
+  "cost_estimate_usd": {
+    "input_tokens": 9862,
+    "model": "gemini-3.1-pro-preview",
+    "note": "No price table entry for this model. Set AMR_BENCH_PRICING_OVERRIDES to a JSON file with the same shape as PRICE_TABLE to attach a price.",
+    "output_tokens": 3938,
+    "provider": "gemini_batch"
+  },
+  "mechreason_breakdown": {
+    "by_class": {
+      "permeability_loss": {
+        "accuracy": 1.0,
+        "correct": 5,
+        "n": 5
+      }
+    },
+    "n_mechreason": 5,
+    "parse_or_call_errors": 0,
+    "subscore_rates": {
+      "gene_family_correct": 1.0,
+      "layers_complete": 1.0,
+      "mechanism_class_correct": 1.0
+    }
+  },
+  "model": "gemini-3.1-pro-preview",
+  "n_tasks": 5,
+  "overall": {
+    "accuracy": 1.0,
+    "json_valid_rate": 1.0,
+    "mean_evidence_items": 3.0,
+    "n": 5
+  },
+  "provider": "gemini_batch",
+  "run_name": "gemini_batch_smoke_20260426T114739Z",
+  "timestamp_utc": "2026-04-26T12:06:50.748237+00:00",
+  "usage_totals": {
+    "input_tokens": 9862,
+    "output_tokens": 3938,
+    "reasoning_tokens": 7426,
+    "total_tokens": 21226
+  }
+}

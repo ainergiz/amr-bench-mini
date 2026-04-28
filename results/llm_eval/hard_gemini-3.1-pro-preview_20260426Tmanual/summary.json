@@ -1,0 +1,75 @@
+{
+  "by_track": {
+    "mechreason": {
+      "accuracy": 0.58,
+      "json_valid_rate": 1.0,
+      "mean_evidence_items": 2.52,
+      "n": 50
+    }
+  },
+  "cost_estimate_usd": {
+    "input_tokens": 87831,
+    "model": "gemini-3.1-pro-preview",
+    "note": "No price table entry for this model. Set AMR_BENCH_PRICING_OVERRIDES to a JSON file with the same shape as PRICE_TABLE to attach a price.",
+    "output_tokens": 33648,
+    "provider": "gemini"
+  },
+  "mechreason_breakdown": {
+    "by_class": {
+      "efflux": {
+        "accuracy": 1.0,
+        "correct": 4,
+        "n": 4
+      },
+      "enzymatic_inactivation": {
+        "accuracy": 1.0,
+        "correct": 3,
+        "n": 3
+      },
+      "insufficient_evidence": {
+        "accuracy": 0.25,
+        "correct": 6,
+        "n": 24
+      },
+      "intrinsic": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "n": 3
+      },
+      "permeability_loss": {
+        "accuracy": 1.0,
+        "correct": 14,
+        "n": 14
+      },
+      "regulator_loss_of_function": {
+        "accuracy": 1.0,
+        "correct": 2,
+        "n": 2
+      }
+    },
+    "n_mechreason": 50,
+    "parse_or_call_errors": 0,
+    "subscore_rates": {
+      "gene_family_correct": 0.52,
+      "layers_complete": 1.0,
+      "mechanism_class_correct": 0.58
+    }
+  },
+  "model": "gemini-3.1-pro-preview",
+  "n_tasks": 50,
+  "overall": {
+    "accuracy": 0.58,
+    "json_valid_rate": 1.0,
+    "mean_evidence_items": 2.52,
+    "n": 50
+  },
+  "provider": "gemini",
+  "run_name": "hard_gemini-3.1-pro-preview_20260426Tmanual",
+  "timestamp_utc": "2026-04-26T10:19:19.772886+00:00",
+  "usage_totals": {
+    "input_tokens": 87831,
+    "output_tokens": 33648,
+    "reasoning_tokens": 74050,
+    "total_tokens": 195529
+  }
+}

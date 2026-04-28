@@ -1,0 +1,86 @@
+[
+  {
+    "batch": {
+      "archived_at": null,
+      "cancel_initiated_at": null,
+      "created_at": "2026-04-26T08:30:24.975815Z",
+      "ended_at": null,
+      "expires_at": "2026-04-27T08:30:24.975815Z",
+      "id": "msgbatch_01YUfcYkGVHwbMEJ5zYFBTG3",
+      "processing_status": "in_progress",
+      "request_counts": {
+        "canceled": 0,
+        "errored": 0,
+        "expired": 0,
+        "processing": 50,
+        "succeeded": 0
+      },
+      "results_url": null,
+      "type": "message_batch"
+    },
+    "checked_at_utc": "2026-04-26T08:30:25.526221+00:00"
+  },
+  {
+    "batch": {
+      "archived_at": null,
+      "cancel_initiated_at": null,
+      "created_at": "2026-04-26T08:30:24.975815Z",
+      "ended_at": null,
+      "expires_at": "2026-04-27T08:30:24.975815Z",
+      "id": "msgbatch_01YUfcYkGVHwbMEJ5zYFBTG3",
+      "processing_status": "in_progress",
+      "request_counts": {
+        "canceled": 0,
+        "errored": 0,
+        "expired": 0,
+        "processing": 50,
+        "succeeded": 0
+      },
+      "results_url": null,
+      "type": "message_batch"
+    },
+    "checked_at_utc": "2026-04-26T08:30:55.726671+00:00"
+  },
+  {
+    "batch": {
+      "archived_at": null,
+      "cancel_initiated_at": null,
+      "created_at": "2026-04-26T08:30:24.975815Z",
+      "ended_at": null,
+      "expires_at": "2026-04-27T08:30:24.975815Z",
+      "id": "msgbatch_01YUfcYkGVHwbMEJ5zYFBTG3",
+      "processing_status": "in_progress",
+      "request_counts": {
+        "canceled": 0,
+        "errored": 0,
+        "expired": 0,
+        "processing": 50,
+        "succeeded": 0
+      },
+      "results_url": null,
+      "type": "message_batch"
+    },
+    "checked_at_utc": "2026-04-26T08:31:25.917110+00:00"
+  },
+  {
+    "batch": {
+      "archived_at": null,
+      "cancel_initiated_at": null,
+      "created_at": "2026-04-26T08:30:24.975815Z",
+      "ended_at": "2026-04-26T08:31:49.233983Z",
+      "expires_at": "2026-04-27T08:30:24.975815Z",
+      "id": "msgbatch_01YUfcYkGVHwbMEJ5zYFBTG3",
+      "processing_status": "ended",
+      "request_counts": {
+        "canceled": 0,
+        "errored": 0,
+        "expired": 0,
+        "processing": 0,
+        "succeeded": 50
+      },
+      "results_url": "https://api.anthropic.com/v1/messages/batches/msgbatch_01YUfcYkGVHwbMEJ5zYFBTG3/results",
+      "type": "message_batch"
+    },
+    "checked_at_utc": "2026-04-26T08:31:56.129997+00:00"
+  }
+]

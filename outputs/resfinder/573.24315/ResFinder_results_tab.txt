@@ -1,0 +1,10 @@
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+aadA1	100.00	789/789	100.0	1..789	573.24315.con.0054 type=contig length=2914	784..1572	Spectinomycin, Streptomycin	JQ480156
+aac(6')-Ib	100.00	606/606	100.0	1..606	573.24315.con.0054 type=contig length=2914	109..714	Amikacin, Tobramycin, Kanamycin, Amikacin, Tobramycin	M21682
+aac(3)-IId	99.88	861/861	100.0	1..861	573.24315.con.0053 type=contig length=3025	1736..2596	Apramycin, Gentamicin, Tobramycin, Dibekacin, Netilmicin, Sisomicin	EU022314
+blaOXA-9	100.00	825/825	100.0	1..825	573.24315.con.0054 type=contig length=2914	1632..2456	Amoxicillin, Ampicillin	KQ089875
+blaOXA-181	100.00	798/798	100.0	1..798	573.24315.con.0015 type=contig length=96873	95821..96618	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	CM004561
+blaCTX-M-15	100.00	876/876	100.0	1..876	573.24315.con.0010 type=contig length=152181	176..1051	Amoxicillin, Ampicillin, Aztreonam, Cefepime, Cefotaxime, Ceftazidime, Ceftriaxone, Piperacillin, Ticarcillin	AY044436
+blaTEM-1A	100.00	861/861	100.0	1..861	573.24315.con.0071 type=contig length=1038	109..969	Amoxicillin, Ampicillin, Cephalothin, Piperacillin, Ticarcillin	HM749966
+blaSHV-155	100.00	719/861	83.50754936120791	1..719	573.24315.con.0078 type=contig length=742	24..742	Unknown Beta-lactam	JX121122
+fosA	96.43	420/420	100.0	1..420	573.24315.con.0006 type=contig length=350442	336023..336442	Fosfomycin	ACZD01000244

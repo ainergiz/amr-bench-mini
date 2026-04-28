@@ -1,0 +1,40 @@
+{
+  "args": {
+    "limit": null,
+    "max_tokens": 4096,
+    "model": "claude-opus-4-7",
+    "pilot": false,
+    "provider": "anthropic",
+    "save_raw": true,
+    "smoke": false,
+    "tasks_file": "/tmp/zsh9ViuG3"
+  },
+  "argv": [
+    "scripts/run_llm_eval.py",
+    "--tasks-file",
+    "/tmp/zsh9ViuG3",
+    "--provider",
+    "anthropic",
+    "--model",
+    "claude-opus-4-7",
+    "--run-name",
+    "two_task_hard_claude-opus-4-7_20260426Tmanual",
+    "--save-raw"
+  ],
+  "command": "scripts/run_llm_eval.py --tasks-file /tmp/zsh9ViuG3 --provider anthropic --model claude-opus-4-7 --run-name two_task_hard_claude-opus-4-7_20260426Tmanual --save-raw",
+  "n_tasks": 2,
+  "prompt_versions": {
+    "AMR_SCAFFOLDED_SYSTEM_PROMPT_sha16": "2bad362b647d93d7",
+    "DBRECONCILE_INSTRUCTIONS_sha16": "6c9134e249bf3b07",
+    "GENERIC_SYSTEM_PROMPT_sha16": "31c02c69ec25fce1",
+    "GENOPHENO_INSTRUCTIONS_sha16": "531e8a5356b5de2c",
+    "MECHREASON_INSTRUCTIONS_sha16": "c0faae007bf9a13e"
+  },
+  "run_name": "two_task_hard_claude-opus-4-7_20260426Tmanual",
+  "task_id_list": [
+    "mechreason_kp_000342",
+    "mechreason_kp_000712"
+  ],
+  "task_subset_sha256_16": "d6f69f12b088c4e4",
+  "timestamp_utc": "2026-04-26T08:14:29.232589+00:00"
+}

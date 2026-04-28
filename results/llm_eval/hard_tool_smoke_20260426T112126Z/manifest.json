@@ -1,0 +1,43 @@
+{
+  "args": {
+    "card_substrate_context": true,
+    "limit": 2,
+    "max_tokens": 4096,
+    "model": "gemini-3.1-pro-preview",
+    "pilot": false,
+    "provider": "gemini",
+    "save_raw": false,
+    "smoke": false,
+    "tasks_file": "data/tasks/mechreason_hard.jsonl"
+  },
+  "argv": [
+    "scripts/run_llm_eval.py",
+    "--tasks-file",
+    "data/tasks/mechreason_hard.jsonl",
+    "--limit",
+    "2",
+    "--provider",
+    "gemini",
+    "--model",
+    "gemini-3.1-pro-preview",
+    "--card-substrate-context",
+    "--run-name",
+    "hard_tool_smoke_20260426T112126Z"
+  ],
+  "command": "scripts/run_llm_eval.py --tasks-file data/tasks/mechreason_hard.jsonl --limit 2 --provider gemini --model gemini-3.1-pro-preview --card-substrate-context --run-name hard_tool_smoke_20260426T112126Z",
+  "n_tasks": 2,
+  "prompt_versions": {
+    "AMR_SCAFFOLDED_SYSTEM_PROMPT_sha16": "2bad362b647d93d7",
+    "DBRECONCILE_INSTRUCTIONS_sha16": "6c9134e249bf3b07",
+    "GENERIC_SYSTEM_PROMPT_sha16": "31c02c69ec25fce1",
+    "GENOPHENO_INSTRUCTIONS_sha16": "531e8a5356b5de2c",
+    "MECHREASON_INSTRUCTIONS_sha16": "c0faae007bf9a13e"
+  },
+  "run_name": "hard_tool_smoke_20260426T112126Z",
+  "task_id_list": [
+    "mechreason_kp_000016",
+    "mechreason_kp_000063"
+  ],
+  "task_subset_sha256_16": "0430910f5e76d815",
+  "timestamp_utc": "2026-04-26T11:21:26.280985+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "by_track": {
+    "mechreason": {
+      "accuracy": 0.0,
+      "json_valid_rate": 0.0,
+      "mean_evidence_items": 0.0,
+      "n": 3
+    }
+  },
+  "cost_estimate_usd": {
+    "input_tokens": 0,
+    "model": "gpt-5-nano",
+    "note": "No price table entry for this model. Set AMR_BENCH_PRICING_OVERRIDES to a JSON file with the same shape as PRICE_TABLE to attach a price.",
+    "output_tokens": 0,
+    "provider": "openai"
+  },
+  "mechreason_breakdown": {
+    "by_class": {
+      "insufficient_evidence": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "n": 1
+      },
+      "permeability_loss": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "n": 1
+      },
+      "target_modification": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "n": 1
+      }
+    },
+    "n_mechreason": 3,
+    "parse_or_call_errors": 3,
+    "subscore_rates": {
+      "gene_family_correct": 0.0,
+      "layers_complete": 0.0,
+      "mechanism_class_correct": 0.0
+    }
+  },
+  "mode": "smoke (mocked model)",
+  "model": "gpt-5-nano",
+  "n_tasks": 3,
+  "overall": {
+    "accuracy": 0.0,
+    "json_valid_rate": 0.0,
+    "mean_evidence_items": 0.0,
+    "n": 3
+  },
+  "provider": "openai",
+  "run_name": "smoke_20260425T192604Z",
+  "timestamp_utc": "2026-04-25T19:26:07.506094+00:00"
+}

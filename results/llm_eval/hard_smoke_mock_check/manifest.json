@@ -1,0 +1,42 @@
+{
+  "args": {
+    "limit": 3,
+    "max_tokens": 4096,
+    "model": "hard-smoke-mock",
+    "pilot": false,
+    "provider": "mock",
+    "save_raw": false,
+    "smoke": false,
+    "tasks_file": "data/tasks/mechreason_hard.jsonl"
+  },
+  "argv": [
+    "scripts/run_llm_eval.py",
+    "--tasks-file",
+    "data/tasks/mechreason_hard.jsonl",
+    "--limit",
+    "3",
+    "--provider",
+    "mock",
+    "--model",
+    "hard-smoke-mock",
+    "--run-name",
+    "hard_smoke_mock_check"
+  ],
+  "command": "scripts/run_llm_eval.py --tasks-file data/tasks/mechreason_hard.jsonl --limit 3 --provider mock --model hard-smoke-mock --run-name hard_smoke_mock_check",
+  "n_tasks": 3,
+  "prompt_versions": {
+    "AMR_SCAFFOLDED_SYSTEM_PROMPT_sha16": "2bad362b647d93d7",
+    "DBRECONCILE_INSTRUCTIONS_sha16": "6c9134e249bf3b07",
+    "GENERIC_SYSTEM_PROMPT_sha16": "31c02c69ec25fce1",
+    "GENOPHENO_INSTRUCTIONS_sha16": "531e8a5356b5de2c",
+    "MECHREASON_INSTRUCTIONS_sha16": "c0faae007bf9a13e"
+  },
+  "run_name": "hard_smoke_mock_check",
+  "task_id_list": [
+    "mechreason_kp_000016",
+    "mechreason_kp_000063",
+    "mechreason_kp_000141"
+  ],
+  "task_subset_sha256_16": "3a38931504071589",
+  "timestamp_utc": "2026-04-26T08:57:32.701622+00:00"
+}

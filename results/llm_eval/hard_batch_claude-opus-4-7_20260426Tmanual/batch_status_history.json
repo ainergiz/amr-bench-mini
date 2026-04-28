@@ -1,0 +1,107 @@
+[
+  {
+    "batch": {
+      "archived_at": null,
+      "cancel_initiated_at": null,
+      "created_at": "2026-04-26T09:57:36.445315Z",
+      "ended_at": null,
+      "expires_at": "2026-04-27T09:57:36.445315Z",
+      "id": "msgbatch_01JCt78HzbuXvyB54xzRH3kq",
+      "processing_status": "in_progress",
+      "request_counts": {
+        "canceled": 0,
+        "errored": 0,
+        "expired": 0,
+        "processing": 50,
+        "succeeded": 0
+      },
+      "results_url": null,
+      "type": "message_batch"
+    },
+    "checked_at_utc": "2026-04-26T09:57:36.689663+00:00"
+  },
+  {
+    "batch": {
+      "archived_at": null,
+      "cancel_initiated_at": null,
+      "created_at": "2026-04-26T09:57:36.445315Z",
+      "ended_at": null,
+      "expires_at": "2026-04-27T09:57:36.445315Z",
+      "id": "msgbatch_01JCt78HzbuXvyB54xzRH3kq",
+      "processing_status": "in_progress",
+      "request_counts": {
+        "canceled": 0,
+        "errored": 0,
+        "expired": 0,
+        "processing": 50,
+        "succeeded": 0
+      },
+      "results_url": null,
+      "type": "message_batch"
+    },
+    "checked_at_utc": "2026-04-26T09:58:06.878231+00:00"
+  },
+  {
+    "batch": {
+      "archived_at": null,
+      "cancel_initiated_at": null,
+      "created_at": "2026-04-26T09:57:36.445315Z",
+      "ended_at": null,
+      "expires_at": "2026-04-27T09:57:36.445315Z",
+      "id": "msgbatch_01JCt78HzbuXvyB54xzRH3kq",
+      "processing_status": "in_progress",
+      "request_counts": {
+        "canceled": 0,
+        "errored": 0,
+        "expired": 0,
+        "processing": 50,
+        "succeeded": 0
+      },
+      "results_url": null,
+      "type": "message_batch"
+    },
+    "checked_at_utc": "2026-04-26T09:58:37.087275+00:00"
+  },
+  {
+    "batch": {
+      "archived_at": null,
+      "cancel_initiated_at": null,
+      "created_at": "2026-04-26T09:57:36.445315Z",
+      "ended_at": null,
+      "expires_at": "2026-04-27T09:57:36.445315Z",
+      "id": "msgbatch_01JCt78HzbuXvyB54xzRH3kq",
+      "processing_status": "in_progress",
+      "request_counts": {
+        "canceled": 0,
+        "errored": 0,
+        "expired": 0,
+        "processing": 50,
+        "succeeded": 0
+      },
+      "results_url": null,
+      "type": "message_batch"
+    },
+    "checked_at_utc": "2026-04-26T09:59:07.306629+00:00"
+  },
+  {
+    "batch": {
+      "archived_at": null,
+      "cancel_initiated_at": null,
+      "created_at": "2026-04-26T09:57:36.445315Z",
+      "ended_at": "2026-04-26T09:59:34.184911Z",
+      "expires_at": "2026-04-27T09:57:36.445315Z",
+      "id": "msgbatch_01JCt78HzbuXvyB54xzRH3kq",
+      "processing_status": "ended",
+      "request_counts": {
+        "canceled": 0,
+        "errored": 0,
+        "expired": 0,
+        "processing": 0,
+        "succeeded": 50
+      },
+      "results_url": "https://api.anthropic.com/v1/messages/batches/msgbatch_01JCt78HzbuXvyB54xzRH3kq/results",
+      "type": "message_batch"
+    },
+    "checked_at_utc": "2026-04-26T09:59:37.522076+00:00"
+  }
+]

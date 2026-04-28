@@ -1,0 +1,48 @@
+{
+  "by_track": {
+    "mechreason": {
+      "accuracy": 0.0,
+      "json_valid_rate": 0.0,
+      "mean_evidence_items": 0.0,
+      "n": 3
+    }
+  },
+  "mechreason_breakdown": {
+    "by_class": {
+      "insufficient_evidence": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "mech_class_accuracy": 0.0,
+        "mech_correct": 0,
+        "n": 1
+      },
+      "permeability_loss": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "mech_class_accuracy": 0.0,
+        "mech_correct": 0,
+        "n": 1
+      },
+      "target_modification": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "mech_class_accuracy": 0.0,
+        "mech_correct": 0,
+        "n": 1
+      }
+    },
+    "n_mechreason": 3,
+    "parse_or_call_errors": 1,
+    "subscore_rates": {
+      "gene_family_correct": 0.0,
+      "layers_complete": 0.0,
+      "mechanism_class_correct": 0.0
+    }
+  },
+  "overall": {
+    "accuracy": 0.0,
+    "json_valid_rate": 0.0,
+    "mean_evidence_items": 0.0,
+    "n": 3
+  }
+}

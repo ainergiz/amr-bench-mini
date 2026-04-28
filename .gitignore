@@ -1,0 +1,35 @@
+.DS_Store
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*secret*
+*credential*
+
+# Local agent/editor state
+.claude/
+.context/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# LaTeX build artifacts; keep source and final PDF.
+paper/*.aux
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.log
+paper/*.out
+paper/*.synctex.gz
+
+# OS/editor noise
+*.swp
+*.swo
+*~

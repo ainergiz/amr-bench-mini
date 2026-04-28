@@ -1,0 +1,108 @@
+# ResFinder phenotype results.
+# Sample: 573.5644.fna
+# 
+# The phenotype 'No resistance' should be interpreted with
+# caution, as it only means that nothing in the used
+# database indicate resistance, but resistance could exist
+# from 'unknown' or not yet implemented sources.
+# 
+# The 'Match' column stores one of the integers 0, 1, 2, 3.
+#      0: No match found
+#      1: Match < 100% ID AND match length < ref length
+#      2: Match = 100% ID AND match length < ref length
+#      3: Match = 100% ID AND match length = ref length
+# If several hits causing the same resistance are found,
+# the highest number will be stored in the 'Match' column.
+
+# Antimicrobial	Class	WGS-predicted phenotype	Match	Genetic background
+gentamicin	aminoglycoside	Resistant	2	aac(3)-I (aac(3)-I_AJ877225)
+tobramycin	aminoglycoside	Resistant	3	aac(6')-Il (aac(6')-Il_U13880), aac(6')-Ib3 (aac(6')-Ib3_X60321)
+streptomycin	aminoglycoside	Resistant	3	aadA23 (aadA23_AJ809407), aph(6)-Id (aph(6)-Id_M28829), aph(3'')-Ib (aph(3'')-Ib_AF321551), aadA2 (aadA2_JQ364967)
+amikacin	aminoglycoside	Resistant	3	aac(6')-Il (aac(6')-Il_U13880), aac(6')-Ib3 (aac(6')-Ib3_X60321)
+isepamicin	aminoglycoside	No resistance	0	
+dibekacin	aminoglycoside	No resistance	0	
+kanamycin	aminoglycoside	Resistant	1	aph(3')-Ia (aph(3')-Ia_V00359), aph(3')-Ia (aph(3')-Ia_X62115)
+neomycin	aminoglycoside	Resistant	1	aph(3')-Ia (aph(3')-Ia_V00359), aph(3')-Ia (aph(3')-Ia_X62115)
+lividomycin	aminoglycoside	Resistant	1	aph(3')-Ia (aph(3')-Ia_V00359), aph(3')-Ia (aph(3')-Ia_X62115)
+paromomycin	aminoglycoside	Resistant	1	aph(3')-Ia (aph(3')-Ia_V00359), aph(3')-Ia (aph(3')-Ia_X62115)
+ribostamycin	aminoglycoside	Resistant	1	aph(3')-Ia (aph(3')-Ia_V00359), aph(3')-Ia (aph(3')-Ia_X62115)
+unknown aminoglycoside	aminoglycoside	Resistant	1	aph(3')-Ia (aph(3')-Ia_EU855787)
+butiromycin	aminoglycoside	No resistance	0	
+butirosin	aminoglycoside	No resistance	0	
+hygromycin	aminoglycoside	No resistance	0	
+netilmicin	aminoglycoside	No resistance	0	
+apramycin	aminoglycoside	No resistance	0	
+sisomicin	aminoglycoside	No resistance	0	
+arbekacin	aminoglycoside	No resistance	0	
+kasugamycin	aminoglycoside	No resistance	0	
+astromicin	aminoglycoside	Resistant	2	aac(3)-I (aac(3)-I_AJ877225)
+fortimicin	aminoglycoside	Resistant	2	aac(3)-I (aac(3)-I_AJ877225)
+spectinomycin	aminocyclitol	Resistant	3	aadA23 (aadA23_AJ809407), aadA2 (aadA2_JQ364967)
+fluoroquinolone	quinolone	No resistance	0	
+ciprofloxacin	quinolone	Resistant	2	OqxB (OqxB_EU370913), OqxA (OqxA_EU370913)
+unknown quinolone	quinolone	No resistance	0	
+nalidixic acid	quinolone	Resistant	2	OqxB (OqxB_EU370913), OqxA (OqxA_EU370913)
+amoxicillin	beta-lactam	Resistant	3	blaCMY-4 (blaCMY-4_LNHZ01000079), blaCTX-M-15 (blaCTX-M-15_AY044436), blaVIM-19 (blaVIM-19_FJ499397), blaSHV-98 (blaSHV-98_AM941844), blaSHV-78 (blaSHV-78_AM176553), blaSHV-26 (blaSHV-26_AF227204)
+amoxicillin+clavulanic acid	beta-lactam	Resistant	3	blaCMY-4 (blaCMY-4_LNHZ01000079), blaVIM-19 (blaVIM-19_FJ499397), blaSHV-26 (blaSHV-26_AF227204)
+ampicillin	beta-lactam	Resistant	3	blaCMY-4 (blaCMY-4_LNHZ01000079), blaCTX-M-15 (blaCTX-M-15_AY044436), blaVIM-19 (blaVIM-19_FJ499397), blaSHV-98 (blaSHV-98_AM941844), blaSHV-78 (blaSHV-78_AM176553), blaSHV-26 (blaSHV-26_AF227204)
+ampicillin+clavulanic acid	beta-lactam	Resistant	3	blaCMY-4 (blaCMY-4_LNHZ01000079), blaVIM-19 (blaVIM-19_FJ499397), blaSHV-26 (blaSHV-26_AF227204)
+cefepime	beta-lactam	Resistant	3	blaCTX-M-15 (blaCTX-M-15_AY044436), blaVIM-19 (blaVIM-19_FJ499397), blaSHV-98 (blaSHV-98_AM941844)
+cefixime	beta-lactam	Resistant	3	blaVIM-19 (blaVIM-19_FJ499397)
+cefotaxime	beta-lactam	Resistant	3	blaCMY-4 (blaCMY-4_LNHZ01000079), blaCTX-M-15 (blaCTX-M-15_AY044436), blaVIM-19 (blaVIM-19_FJ499397), blaSHV-98 (blaSHV-98_AM941844)
+cefoxitin	beta-lactam	Resistant	3	blaCMY-4 (blaCMY-4_LNHZ01000079), blaVIM-19 (blaVIM-19_FJ499397)
+ceftazidime	beta-lactam	Resistant	3	blaCMY-4 (blaCMY-4_LNHZ01000079), blaCTX-M-15 (blaCTX-M-15_AY044436), blaVIM-19 (blaVIM-19_FJ499397), blaSHV-98 (blaSHV-98_AM941844)
+ertapenem	beta-lactam	Resistant	3	blaVIM-19 (blaVIM-19_FJ499397)
+imipenem	beta-lactam	Resistant	3	blaVIM-19 (blaVIM-19_FJ499397)
+meropenem	beta-lactam	Resistant	3	blaVIM-19 (blaVIM-19_FJ499397)
+piperacillin	beta-lactam	Resistant	3	blaCMY-4 (blaCMY-4_LNHZ01000079), blaCTX-M-15 (blaCTX-M-15_AY044436), blaVIM-19 (blaVIM-19_FJ499397), blaSHV-98 (blaSHV-98_AM941844), blaSHV-78 (blaSHV-78_AM176553), blaSHV-26 (blaSHV-26_AF227204)
+piperacillin+tazobactam	beta-lactam	Resistant	3	blaCMY-4 (blaCMY-4_LNHZ01000079), blaVIM-19 (blaVIM-19_FJ499397), blaSHV-26 (blaSHV-26_AF227204)
+unknown beta-lactam	beta-lactam	Resistant	2	blaSHV-199 (blaSHV-199_MF373391), blaSHV-194 (blaSHV-194_KX421191), blaSHV-179 (blaSHV-179_KF705208), blaSHV-145 (blaSHV-145_JX013655)
+aztreonam	beta-lactam	Resistant	3	blaCTX-M-15 (blaCTX-M-15_AY044436), blaSHV-98 (blaSHV-98_AM941844)
+cefotaxime+clavulanic acid	beta-lactam	No resistance	0	
+temocillin	beta-lactam	No resistance	0	
+ticarcillin	beta-lactam	Resistant	3	blaCMY-4 (blaCMY-4_LNHZ01000079), blaCTX-M-15 (blaCTX-M-15_AY044436), blaSHV-98 (blaSHV-98_AM941844), blaSHV-78 (blaSHV-78_AM176553), blaSHV-26 (blaSHV-26_AF227204)
+ceftazidime+avibactam	beta-lactam	No resistance	0	
+penicillin	beta-lactam	No resistance	0	
+ceftriaxone	beta-lactam	Resistant	3	blaCTX-M-15 (blaCTX-M-15_AY044436), blaSHV-98 (blaSHV-98_AM941844)
+ticarcillin+clavulanic acid	beta-lactam	Resistant	3	blaCMY-4 (blaCMY-4_LNHZ01000079), blaSHV-26 (blaSHV-26_AF227204)
+cephalothin	beta-lactam	Resistant	2	blaSHV-78 (blaSHV-78_AM176553)
+piperacillin+clavulanic acid	beta-lactam	No resistance	0	
+ceftiofur	under_development	No resistance	0	
+sulfamethoxazole	folate pathway antagonist	Resistant	3	sul1 (sul1_U12338), sul2 (sul2_AY034138)
+trimethoprim	folate pathway antagonist	Resistant	3	OqxB (OqxB_EU370913), OqxA (OqxA_EU370913), dfrA1 (dfrA1_AF203818), dfrA1 (dfrA1_AJ238350), dfrA1 (dfrA1_X00926), dfrA12 (dfrA12_AM040708)
+fosfomycin	fosfomycin	Resistant	2	fosA (fosA_AFBO01000747)
+vancomycin	glycopeptide	No resistance	0	
+teicoplanin	glycopeptide	No resistance	0	
+bleomycin	glycopeptide	No resistance	0	
+lincomycin	lincosamide	No resistance	0	
+clindamycin	lincosamide	No resistance	0	
+dalfopristin	streptogramin a	No resistance	0	
+pristinamycin iia	streptogramin a	No resistance	0	
+virginiamycin m	streptogramin a	No resistance	0	
+quinupristin+dalfopristin	streptogramin a	No resistance	0	
+tiamulin	pleuromutilin	No resistance	0	
+carbomycin	macrolide	No resistance	0	
+erythromycin	macrolide	Resistant	3	mph(A) (mph(A)_D16251)
+azithromycin	macrolide	Resistant	3	mph(A) (mph(A)_D16251)
+oleandomycin	macrolide	No resistance	0	
+spiramycin	macrolide	Resistant	3	mph(A) (mph(A)_D16251)
+tylosin	macrolide	No resistance	0	
+telithromycin	macrolide	Resistant	3	mph(A) (mph(A)_D16251)
+tetracycline	tetracycline	Resistant	1	tet(A) (tet(A)_AF534183)
+doxycycline	tetracycline	Resistant	1	tet(A) (tet(A)_AF534183)
+minocycline	tetracycline	No resistance	0	
+tigecycline	tetracycline	No resistance	0	
+quinupristin	streptogramin b	No resistance	0	
+pristinamycin ia	streptogramin b	No resistance	0	
+virginiamycin s	streptogramin b	No resistance	0	
+linezolid	oxazolidinone	No resistance	0	
+chloramphenicol	amphenicol	Resistant	2	floR (floR_AF118107), OqxB (OqxB_EU370913), OqxA (OqxA_EU370913)
+florfenicol	amphenicol	Resistant	1	floR (floR_AF118107)
+colistin	polymyxin	No resistance	0	
+fusidic acid	steroid antibacterial	No resistance	0	
+mupirocin	pseudomonic acid	No resistance	0	
+rifampicin	rifamycin	No resistance	0	
+metronidazole	nitroimidazole	No resistance	0	
+narasin	ionophores	No resistance	0	
+salinomycin	ionophores	No resistance	0	
+maduramicin	ionophores	No resistance	0	

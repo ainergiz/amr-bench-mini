@@ -1,0 +1,29 @@
+{
+  "flips": [
+    {
+      "adjusted_correct": true,
+      "adjusted_gold": "enzymatic_inactivation",
+      "prediction": "enzymatic_inactivation",
+      "strict_correct": false,
+      "strict_gold": "intrinsic",
+      "task_id": "mechreason_kp_000357"
+    },
+    {
+      "adjusted_correct": true,
+      "adjusted_gold": "enzymatic_inactivation",
+      "prediction": "enzymatic_inactivation",
+      "strict_correct": false,
+      "strict_gold": "intrinsic",
+      "task_id": "mechreason_kp_000866"
+    },
+    {
+      "adjusted_correct": true,
+      "adjusted_gold": "enzymatic_inactivation",
+      "prediction": "enzymatic_inactivation",
+      "strict_correct": false,
+      "strict_gold": "intrinsic",
+      "task_id": "mechreason_kp_000896"
+    }
+  ],
+  "n_flips": 3
+}

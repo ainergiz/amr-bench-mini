@@ -1,0 +1,53 @@
+{
+  "by_track": {
+    "mechreason": {
+      "accuracy": 1.0,
+      "json_valid_rate": 1.0,
+      "mean_evidence_items": 2.5,
+      "n": 2
+    }
+  },
+  "cost_estimate_usd": {
+    "captured": "2026-04",
+    "input_tokens": 4162,
+    "list_price_cost": 0.083385,
+    "list_price_input_per_m": 5.0,
+    "list_price_output_per_m": 25.0,
+    "model": "claude-opus-4-7",
+    "output_tokens": 2503,
+    "provider": "anthropic"
+  },
+  "mechreason_breakdown": {
+    "by_class": {
+      "efflux": {
+        "accuracy": 1.0,
+        "correct": 2,
+        "n": 2
+      }
+    },
+    "n_mechreason": 2,
+    "parse_or_call_errors": 0,
+    "subscore_rates": {
+      "gene_family_correct": 1.0,
+      "layers_complete": 1.0,
+      "mechanism_class_correct": 1.0
+    }
+  },
+  "model": "claude-opus-4-7",
+  "n_tasks": 2,
+  "overall": {
+    "accuracy": 1.0,
+    "json_valid_rate": 1.0,
+    "mean_evidence_items": 2.5,
+    "n": 2
+  },
+  "provider": "anthropic",
+  "run_name": "two_task_claude-opus-4-7_20260426Tmanual",
+  "timestamp_utc": "2026-04-26T08:14:04.617547+00:00",
+  "usage_totals": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 4162,
+    "output_tokens": 2503
+  }
+}

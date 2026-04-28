@@ -1,0 +1,14 @@
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+aac(6')-Ib-cr	100.00	600/600	100.0	1..600	573.14032.con.0102 type=contig length=2296	102..701	Tobramycin, Dibekacin, Amikacin, Sisomicin, Netilmicin, Fluoroquinolone, Ciprofloxacin	DQ303918
+aph(3')-Ia	100.00	816/816	100.0	1..816	573.14032.con.0106 type=contig length=1149	193..1008	Kanamycin, Neomycin, Unknown Aminoglycoside, Kanamycin, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin	V00359
+aadA2	100.00	792/792	100.0	1..792	573.14032.con.0091 type=contig length=4869	2362..3153	Spectinomycin, Streptomycin	JQ364967
+blaOXA-1	100.00	831/831	100.0	1..831	573.14032.con.0102 type=contig length=2296	832..1662	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Piperacillin, Piperacillin+Tazobactam	HQ170510
+blaSHV-5	100.00	861/861	100.0	1..861	573.14032.con.0053 type=contig length=105576	97515..98375	Amoxicillin, Ampicillin, Aztreonam, Cefepime, Cefotaxime, Ceftazidime, Ceftriaxone, Piperacillin, Ticarcillin	X55640
+blaCTX-M-15	100.00	876/876	100.0	1..876	573.14032.con.0096 type=contig length=5322	2692..3567	Amoxicillin, Ampicillin, Aztreonam, Cefepime, Cefotaxime, Ceftazidime, Ceftriaxone, Piperacillin, Ticarcillin	AY044436
+fosA	96.90	420/420	100.0	1..420	573.14032.con.0064 type=contig length=34261	19838..20257	Fosfomycin	ACZD01000244
+mph(A)	100.00	906/906	100.0	1..906	573.14032.con.0094 type=contig length=6068	125..1030	Erythromycin, Azithromycin, Spiramycin, Telithromycin	D16251
+catB3	100.00	442/633	69.826224328594	1..442	573.14032.con.0102 type=contig length=2296	1800..2241	Chloramphenicol	AJ009818
+catB3	100.00	442/633	69.826224328594	1..442	573.14032.con.0102 type=contig length=2296	1800..2241	Chloramphenicol	U13880
+sul1	100.00	840/840	100.0	1..840	573.14032.con.0091 type=contig length=4869	3658..4497	Sulfamethoxazole	U12338
+tet(A)	100.00	1200/1200	100.0	1..1200	573.14032.con.0016 type=contig length=5979	2728..3927	Doxycycline, Tetracycline	AJ517790
+dfrA12	100.00	498/498	100.0	1..498	573.14032.con.0091 type=contig length=4869	1457..1954	Trimethoprim	AM040708

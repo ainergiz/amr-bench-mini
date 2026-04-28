@@ -1,0 +1,41 @@
+{
+  "args": {
+    "limit": 2,
+    "max_tokens": 4096,
+    "model": "claude-opus-4-7",
+    "pilot": true,
+    "provider": "anthropic",
+    "save_raw": true,
+    "smoke": false,
+    "tasks_file": "/Users/ainergiz/iclr/amr-bench/data/tasks/mechreason_pilot.jsonl"
+  },
+  "argv": [
+    "scripts/run_llm_eval.py",
+    "--pilot",
+    "--limit",
+    "2",
+    "--provider",
+    "anthropic",
+    "--model",
+    "claude-opus-4-7",
+    "--run-name",
+    "two_task_claude-opus-4-7_20260426Tmanual",
+    "--save-raw"
+  ],
+  "command": "scripts/run_llm_eval.py --pilot --limit 2 --provider anthropic --model claude-opus-4-7 --run-name two_task_claude-opus-4-7_20260426Tmanual --save-raw",
+  "n_tasks": 2,
+  "prompt_versions": {
+    "AMR_SCAFFOLDED_SYSTEM_PROMPT_sha16": "2bad362b647d93d7",
+    "DBRECONCILE_INSTRUCTIONS_sha16": "6c9134e249bf3b07",
+    "GENERIC_SYSTEM_PROMPT_sha16": "31c02c69ec25fce1",
+    "GENOPHENO_INSTRUCTIONS_sha16": "531e8a5356b5de2c",
+    "MECHREASON_INSTRUCTIONS_sha16": "c0faae007bf9a13e"
+  },
+  "run_name": "two_task_claude-opus-4-7_20260426Tmanual",
+  "task_id_list": [
+    "mechreason_kp_000162",
+    "mechreason_kp_000193"
+  ],
+  "task_subset_sha256_16": "8e0fd4d412890bc9",
+  "timestamp_utc": "2026-04-26T08:13:18.213002+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "annotators": {
+    "amrfinder": {
+      "database_version": "2026-03-24.1",
+      "docker_image": "ncbi/amr:latest",
+      "image_id": "sha256:a42ead5b6fe439e399b2ceda212cd1dadb510116af8535c6be1cd1a5bc16b3f2",
+      "raw_version_output": "Software directory: '/usr/local/bin/'\nSoftware version: 4.2.7\nDatabase directory: '/usr/local/bin/data/2026-03-24.1'\nDatabase version: 2026-03-24.1\nWARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested\nRunning: amrfinder -V\namrfinder took 0 seconds to complete",
+      "repo_digest": "ncbi/amr@sha256:a42ead5b6fe439e399b2ceda212cd1dadb510116af8535c6be1cd1a5bc16b3f2",
+      "tool": "AMRFinderPlus",
+      "tool_version": "4.2.7"
+    },
+    "resfinder": {
+      "database_version": "2.5.1",
+      "docker_image": "genomicepidemiology/resfinder:latest",
+      "image_id": "sha256:cca77cb355da135ca5a6596f9615038faf63b67796a7f2609fc96db53cc456d1",
+      "repo_digest": "genomicepidemiology/resfinder@sha256:cca77cb355da135ca5a6596f9615038faf63b67796a7f2609fc96db53cc456d1",
+      "sample_json": "outputs/resfinder/573.15626/573.json",
+      "tool": "ResFinder",
+      "tool_version_note": "Per-run software command and parameters are recorded in outputs/resfinder/<genome>/573.json under software_executions."
+    }
+  },
+  "captured_host": "Darwin 24.6.0 arm64",
+  "captured_utc": "2026-04-26T11:15:01.833554+00:00",
+  "notes": "AMRFinderPlus TSV outputs do not embed version info; this provenance file is the authoritative version pin for outputs/amrfinder/. ResFinder embeds full software/db provenance in each outputs/resfinder/<genome>/573.json."
+}

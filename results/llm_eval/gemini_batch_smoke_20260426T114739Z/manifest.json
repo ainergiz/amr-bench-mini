@@ -1,0 +1,47 @@
+{
+  "args": {
+    "card_substrate_context": false,
+    "limit": 5,
+    "max_tokens": 4096,
+    "model": "gemini-3.1-pro-preview",
+    "pilot": false,
+    "provider": "gemini_batch",
+    "save_raw": false,
+    "smoke": false,
+    "tasks_file": "data/tasks/mechreason_hard.jsonl"
+  },
+  "argv": [
+    "scripts/run_gemini_batch_eval.py",
+    "--tasks-file",
+    "data/tasks/mechreason_hard.jsonl",
+    "--limit",
+    "5",
+    "--model",
+    "gemini-3.1-pro-preview",
+    "--poll-seconds",
+    "20",
+    "--max-wait-seconds",
+    "1800",
+    "--run-name",
+    "gemini_batch_smoke_20260426T114739Z"
+  ],
+  "command": "scripts/run_gemini_batch_eval.py --tasks-file data/tasks/mechreason_hard.jsonl --limit 5 --model gemini-3.1-pro-preview --poll-seconds 20 --max-wait-seconds 1800 --run-name gemini_batch_smoke_20260426T114739Z",
+  "n_tasks": 5,
+  "prompt_versions": {
+    "AMR_SCAFFOLDED_SYSTEM_PROMPT_sha16": "2bad362b647d93d7",
+    "DBRECONCILE_INSTRUCTIONS_sha16": "6c9134e249bf3b07",
+    "GENERIC_SYSTEM_PROMPT_sha16": "31c02c69ec25fce1",
+    "GENOPHENO_INSTRUCTIONS_sha16": "531e8a5356b5de2c",
+    "MECHREASON_INSTRUCTIONS_sha16": "c0faae007bf9a13e"
+  },
+  "run_name": "gemini_batch_smoke_20260426T114739Z",
+  "task_id_list": [
+    "mechreason_kp_000016",
+    "mechreason_kp_000063",
+    "mechreason_kp_000141",
+    "mechreason_kp_000155",
+    "mechreason_kp_000292"
+  ],
+  "task_subset_sha256_16": "1b27c00159d8b6ff",
+  "timestamp_utc": "2026-04-26T11:47:39.899214+00:00"
+}

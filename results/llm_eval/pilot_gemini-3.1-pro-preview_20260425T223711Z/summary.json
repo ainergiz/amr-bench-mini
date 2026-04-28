@@ -1,0 +1,85 @@
+{
+  "by_track": {
+    "mechreason": {
+      "accuracy": 0.8,
+      "json_valid_rate": 1.0,
+      "mean_evidence_items": 2.92,
+      "n": 50
+    }
+  },
+  "cost_estimate_usd": {
+    "input_tokens": 98317,
+    "model": "gemini-3.1-pro-preview",
+    "note": "No price table entry for this model. Set AMR_BENCH_PRICING_OVERRIDES to a JSON file with the same shape as PRICE_TABLE to attach a price.",
+    "output_tokens": 35413,
+    "provider": "gemini"
+  },
+  "mechreason_breakdown": {
+    "by_class": {
+      "efflux": {
+        "accuracy": 1.0,
+        "correct": 6,
+        "n": 6
+      },
+      "enzymatic_inactivation": {
+        "accuracy": 0.9,
+        "correct": 9,
+        "n": 10
+      },
+      "insufficient_evidence": {
+        "accuracy": 0.25,
+        "correct": 2,
+        "n": 8
+      },
+      "intrinsic": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "n": 3
+      },
+      "metabolic_bypass": {
+        "accuracy": 1.0,
+        "correct": 4,
+        "n": 4
+      },
+      "permeability_loss": {
+        "accuracy": 1.0,
+        "correct": 10,
+        "n": 10
+      },
+      "regulator_loss_of_function": {
+        "accuracy": 1.0,
+        "correct": 2,
+        "n": 2
+      },
+      "target_modification": {
+        "accuracy": 1.0,
+        "correct": 7,
+        "n": 7
+      }
+    },
+    "n_mechreason": 50,
+    "parse_or_call_errors": 0,
+    "subscore_rates": {
+      "gene_family_correct": 0.84,
+      "layers_complete": 1.0,
+      "mechanism_class_correct": 0.8
+    }
+  },
+  "model": "gemini-3.1-pro-preview",
+  "n_tasks": 50,
+  "overall": {
+    "accuracy": 0.8,
+    "json_valid_rate": 1.0,
+    "mean_evidence_items": 2.92,
+    "n": 50
+  },
+  "provider": "gemini",
+  "run_name": "pilot_gemini-3.1-pro-preview_20260425T223711Z",
+  "timestamp_utc": "2026-04-25T22:51:08.757981+00:00",
+  "usage_totals": {
+    "input_tokens": 98317,
+    "output_tokens": 35413,
+    "reasoning_tokens": 68767,
+    "total_tokens": 202497
+  }
+}

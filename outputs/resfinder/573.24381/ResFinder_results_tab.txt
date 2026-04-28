@@ -1,0 +1,5 @@
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+fosA6	99.76	420/420	100.0	1..420	573.24381.con.0012 type=contig length=145963	131481..131900	Fosfomycin	KU254579
+OqxB	98.95	3153/3153	100.0	1..3153	573.24381.con.0064 type=contig length=20292	5518..8670	Chloramphenicol, Nalidixic acid, Ciprofloxacin, Trimethoprim	EU370913
+OqxA	99.23	1176/1176	100.0	1..1176	573.24381.con.0064 type=contig length=20292	4319..5494	Chloramphenicol, Nalidixic acid, Ciprofloxacin, Trimethoprim	EU370913
+qnrS1	100.00	657/657	100.0	1..657	573.24381.con.0052 type=contig length=27633	612..1268	Ciprofloxacin	AB187515

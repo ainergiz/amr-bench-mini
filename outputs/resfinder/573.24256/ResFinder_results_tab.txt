@@ -1,0 +1,13 @@
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+aac(6')-Ib-cr	100.00	600/600	100.0	1..600	573.24256.con.0038 type=contig length=2186	1541..2140	Tobramycin, Dibekacin, Amikacin, Sisomicin, Netilmicin, Fluoroquinolone, Ciprofloxacin	DQ303918
+blaSHV-106	99.88	861/861	100.0	1..861	573.24256.con.0011 type=contig length=163285	79222..80082	Amoxicillin, Ampicillin, Aztreonam, Cefepime, Cefotaxime, Ceftazidime, Ceftriaxone, Piperacillin, Ticarcillin	AM922307
+blaSHV-28	99.88	861/861	100.0	1..861	573.24256.con.0011 type=contig length=163285	79222..80082	Unknown Beta-lactam	AF299299
+blaCTX-M-15	100.00	876/876	100.0	1..876	573.24256.con.0007 type=contig length=224461	217270..218145	Amoxicillin, Ampicillin, Aztreonam, Cefepime, Cefotaxime, Ceftazidime, Ceftriaxone, Piperacillin, Ticarcillin	AY044436
+blaOXA-232	100.00	798/798	100.0	1..798	573.24256.con.0007 type=contig length=224461	223409..224206	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Piperacillin, Piperacillin+Tazobactam	JX423831
+blaOXA-1	100.00	831/831	100.0	1..831	573.24256.con.0038 type=contig length=2186	580..1410	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Piperacillin, Piperacillin+Tazobactam	HQ170510
+fosA6	99.52	420/420	100.0	1..420	573.24256.con.0006 type=contig length=336639	334187..334606	Fosfomycin	KU254579
+catB3	100.00	442/633	69.826224328594	1..442	573.24256.con.0038 type=contig length=2186	1..442	Chloramphenicol	AJ009818
+catB3	100.00	442/633	69.826224328594	1..442	573.24256.con.0038 type=contig length=2186	1..442	Chloramphenicol	U13880
+OqxB	98.79	3153/3153	100.0	1..3153	573.24256.con.0003 type=contig length=393414	358278..361430	Chloramphenicol, Nalidixic acid, Ciprofloxacin, Trimethoprim	EU370913
+OqxA	99.23	1176/1176	100.0	1..1176	573.24256.con.0003 type=contig length=393414	361454..362629	Chloramphenicol, Nalidixic acid, Ciprofloxacin, Trimethoprim	EU370913
+dfrA1	100.00	474/474	100.0	1..474	573.24256.con.0026 type=contig length=41954	685..1158	Trimethoprim	X00926

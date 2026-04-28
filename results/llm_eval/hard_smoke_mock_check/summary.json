@@ -1,0 +1,49 @@
+{
+  "by_track": {
+    "mechreason": {
+      "accuracy": 0.0,
+      "json_valid_rate": 1.0,
+      "mean_evidence_items": 1.0,
+      "n": 3
+    }
+  },
+  "cost_estimate_usd": {
+    "input_tokens": 0,
+    "model": "hard-smoke-mock",
+    "note": "No price table entry for this model. Set AMR_BENCH_PRICING_OVERRIDES to a JSON file with the same shape as PRICE_TABLE to attach a price.",
+    "output_tokens": 0,
+    "provider": "mock"
+  },
+  "mechreason_breakdown": {
+    "by_class": {
+      "permeability_loss": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "n": 3
+      }
+    },
+    "n_mechreason": 3,
+    "parse_or_call_errors": 0,
+    "subscore_rates": {
+      "gene_family_correct": 0.0,
+      "layers_complete": 1.0,
+      "mechanism_class_correct": 0.0
+    }
+  },
+  "model": "hard-smoke-mock",
+  "n_tasks": 3,
+  "overall": {
+    "accuracy": 0.0,
+    "json_valid_rate": 1.0,
+    "mean_evidence_items": 1.0,
+    "n": 3
+  },
+  "provider": "mock",
+  "run_name": "hard_smoke_mock_check",
+  "timestamp_utc": "2026-04-26T08:57:32.704274+00:00",
+  "usage_totals": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  }
+}

@@ -1,0 +1,212 @@
+\begin{thebibliography}{20}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Alcock et~al.(2023)Alcock, Huynh, Chalil, Smith, Raphenya, Wlodarski,
+  Edalatmand, Petkau, et~al.]{card}
+Alcock, B.~P., Huynh, W., Chalil, R., Smith, K.~W., Raphenya, A.~R., Wlodarski,
+  M.~A., Edalatmand, A., Petkau, A., et~al.
+\newblock {CARD} 2023: Expanded curation, support for machine learning, and
+  resistome prediction at the {Comprehensive Antibiotic Resistance Database}.
+\newblock \emph{Nucleic Acids Research}, 51\penalty0 (D1):\penalty0 D690--D699,
+  2023.
+\newblock \doi{10.1093/nar/gkac920}.
+
+\bibitem[Boiko et~al.(2023)Boiko, MacKnight, Kline, and Gomes]{coscientist}
+Boiko, D.~A., MacKnight, R., Kline, B., and Gomes, G.
+\newblock Autonomous chemical research with large language models.
+\newblock \emph{Nature}, 624:\penalty0 570--578, 2023.
+\newblock \doi{10.1038/s41586-023-06792-0}.
+
+\bibitem[Bonin et~al.(2023)Bonin, Doster, Worley, Pinnell, Bravo, Ferm, Marini,
+  Prosperi, et~al.]{megares}
+Bonin, N., Doster, E., Worley, H., Pinnell, L.~J., Bravo, J.~E., Ferm, P.,
+  Marini, S., Prosperi, M., et~al.
+\newblock {MEGARes} and {AMR++}, v3.0: An updated comprehensive database of
+  antimicrobial resistance determinants and an improved software pipeline for
+  classification using high-throughput sequencing.
+\newblock \emph{Nucleic Acids Research}, 51\penalty0 (D1):\penalty0 D744--D752,
+  2023.
+\newblock \doi{10.1093/nar/gkac1047}.
+
+\bibitem[Bragg et~al.(2025)Bragg, D'Arcy, Balepur, Bareket, Dalvi, Feldman,
+  Haddad, Hwang, Jansen, Kishore, Majumder, Naik, Rahamimov, Richardson, Singh,
+  Surana, Tiktinsky, Vasu, Wiener, Clark, Downey, Goldberg, Sabharwal, Weld,
+  et~al.]{astabench}
+Bragg, J., D'Arcy, M., Balepur, N., Bareket, D., Dalvi, B., Feldman, S.,
+  Haddad, D., Hwang, J.~D., Jansen, P., Kishore, V., Majumder, B.~P., Naik, A.,
+  Rahamimov, S., Richardson, K., Singh, A., Surana, H., Tiktinsky, A., Vasu,
+  R., Wiener, G., Clark, P., Downey, D., Goldberg, Y., Sabharwal, A., Weld,
+  D.~S., et~al.
+\newblock {AstaBench}: Rigorous benchmarking of {AI} agents with a scientific
+  research suite.
+\newblock \emph{arXiv preprint arXiv:2510.21652}, 2025.
+\newblock \doi{10.48550/arXiv.2510.21652}.
+\newblock Published at ICLR 2026.
+
+\bibitem[Bran et~al.(2024)Bran, Cox, Schilter, Baldassari, White, and
+  Schwaller]{chemcrow}
+Bran, A.~M., Cox, S., Schilter, O., Baldassari, C., White, A.~D., and
+  Schwaller, P.
+\newblock Augmenting large language models with chemistry tools.
+\newblock \emph{Nature Machine Intelligence}, 6:\penalty0 525--535, 2024.
+\newblock \doi{10.1038/s42256-024-00832-8}.
+
+\bibitem[Chen et~al.(2024)Chen, Chen, Ning, Zhang, Wang, Yu, Li, Liao, Wei, Lu,
+  Dey, Xue, Baker, Burns, Adu-Ampratwum, Huang, Ning, Gao, Su, and
+  Sun]{scienceagentbench}
+Chen, Z., Chen, S., Ning, Y., Zhang, Q., Wang, B., Yu, B., Li, Y., Liao, Z.,
+  Wei, C., Lu, Z., Dey, V., Xue, M., Baker, F.~N., Burns, B., Adu-Ampratwum,
+  D., Huang, X., Ning, X., Gao, S., Su, Y., and Sun, H.
+\newblock {ScienceAgentBench}: Toward rigorous assessment of language agents on
+  data-driven scientific discovery.
+\newblock \emph{arXiv preprint arXiv:2410.05080}, 2024.
+\newblock \doi{10.48550/arXiv.2410.05080}.
+\newblock Published at ICLR 2025.
+
+\bibitem[Du et~al.(2025)Du, Yu, Liu, Shen, Chen, Rittig, Sun, Zhang, Krishnan,
+  Zhang, Rosen, Pirone, Song, Zhou, Masschelein, Wang, Wang, Jia, Zhang, Zhao,
+  Ester, Hacohen, Head-Gordon, Gomes, Sun, Duan, Schwaller, and Jin]{saga}
+Du, Y., Yu, B., Liu, T., Shen, T., Chen, J., Rittig, J.~G., Sun, K., Zhang, Y.,
+  Krishnan, A., Zhang, Y., Rosen, D., Pirone, R., Song, Z., Zhou, B.,
+  Masschelein, C., Wang, Y., Wang, H., Jia, H., Zhang, C., Zhao, H., Ester, M.,
+  Hacohen, N., Head-Gordon, T., Gomes, C.~P., Sun, H., Duan, C., Schwaller, P.,
+  and Jin, W.
+\newblock Accelerating scientific discovery with autonomous goal-evolving
+  agents.
+\newblock \emph{arXiv preprint arXiv:2512.21782}, 2025.
+\newblock \doi{10.48550/arXiv.2512.21782}.
+
+\bibitem[Feldgarden et~al.(2021)Feldgarden, Brover, Gonzalez-Escalona, Frye,
+  Haendiges, Haft, Hoffmann, Pettengill, Prasad, Tillman, Tyson, and
+  Klimke]{amrfinder}
+Feldgarden, M., Brover, V., Gonzalez-Escalona, N., Frye, J.~G., Haendiges, J.,
+  Haft, D.~H., Hoffmann, M., Pettengill, J.~B., Prasad, A.~B., Tillman, G.~E.,
+  Tyson, G.~H., and Klimke, W.
+\newblock {AMRFinderPlus} and the {Reference Gene Catalog} facilitate
+  examination of the genomic links among antimicrobial resistance, stress
+  response, and virulence.
+\newblock \emph{Scientific Reports}, 11:\penalty0 12728, 2021.
+\newblock \doi{10.1038/s41598-021-91456-0}.
+
+\bibitem[Gao et~al.(2025)Gao, Zhu, Kong, Noori, Su, Ginder, Tsiligkaridis, and
+  Zitnik]{txagent}
+Gao, S., Zhu, R., Kong, Z., Noori, A., Su, X., Ginder, C., Tsiligkaridis, T.,
+  and Zitnik, M.
+\newblock {TxAgent}: An {AI} agent for therapeutic reasoning across a universe
+  of tools.
+\newblock \emph{arXiv preprint arXiv:2503.10970}, 2025.
+\newblock \doi{10.48550/arXiv.2503.10970}.
+
+\bibitem[Ghareeb et~al.(2025)Ghareeb, Chang, Mitchener, Yiu, Szostkiewicz,
+  Laurent, Razzak, White, Hinks, and Rodriques]{robin}
+Ghareeb, A.~E., Chang, B., Mitchener, L., Yiu, A., Szostkiewicz, C.~J.,
+  Laurent, J.~M., Razzak, M.~T., White, A.~D., Hinks, M.~M., and Rodriques,
+  S.~G.
+\newblock {Robin}: A multi-agent system for automating scientific discovery.
+\newblock \emph{arXiv preprint arXiv:2505.13400}, 2025.
+\newblock \doi{10.48550/arXiv.2505.13400}.
+
+\bibitem[Gottweis et~al.(2025)Gottweis, Weng, Daryin, Tu, Palepu, Sirkovic,
+  Myaskovsky, Weissenberger, Rong, Tanno, et~al.]{cocientist}
+Gottweis, J., Weng, W.-H., Daryin, A., Tu, T., Palepu, A., Sirkovic, P.,
+  Myaskovsky, A., Weissenberger, F., Rong, K., Tanno, R., et~al.
+\newblock Towards an {AI} co-scientist.
+\newblock \emph{arXiv preprint arXiv:2502.18864}, 2025.
+\newblock \doi{10.48550/arXiv.2502.18864}.
+
+\bibitem[Huang et~al.(2025)Huang, Zhang, Wang, Qu, Lu, Roohani, Li, Qiu, Zhang,
+  Di, Marwaha, Carter, Zhou, Wheeler, Bernstein, Wang, He, Zhou, Snyder, Cong,
+  Regev, and Leskovec]{biomni}
+Huang, K., Zhang, S., Wang, H., Qu, Y., Lu, Y., Roohani, Y., Li, R., Qiu, L.,
+  Zhang, J., Di, Y., Marwaha, S., Carter, J., Zhou, X., Wheeler, M.~T.,
+  Bernstein, J., Wang, M., He, P.-A., Zhou, J., Snyder, M., Cong, L., Regev,
+  A., and Leskovec, J.
+\newblock {Biomni}: A general-purpose biomedical {AI} agent.
+\newblock \emph{bioRxiv}, 2025.
+\newblock \doi{10.1101/2025.05.30.656746}.
+\newblock Preprint, posted 2 June 2025.
+
+\bibitem[Laurent et~al.(2024)Laurent, Janizek, Ruzo, Hinks, Hammerling,
+  Narayanan, Ponnapati, White, and Rodriques]{labbench}
+Laurent, J.~M., Janizek, J.~D., Ruzo, M., Hinks, M.~M., Hammerling, M.~J.,
+  Narayanan, S., Ponnapati, M., White, A.~D., and Rodriques, S.~G.
+\newblock {LAB-Bench}: Measuring capabilities of language models for biology
+  research.
+\newblock \emph{arXiv preprint arXiv:2407.10362}, 2024.
+\newblock \doi{10.48550/arXiv.2407.10362}.
+
+\bibitem[Mitchener et~al.(2025)Mitchener, Laurent, Andonian, Tenmann,
+  Narayanan, Wellawatte, White, Sani, and Rodriques]{bixbench}
+Mitchener, L., Laurent, J.~M., Andonian, A., Tenmann, B., Narayanan, S.,
+  Wellawatte, G.~P., White, A.~D., Sani, L., and Rodriques, S.~G.
+\newblock {BixBench}: A comprehensive benchmark for {LLM}-based agents in
+  computational biology.
+\newblock \emph{arXiv preprint arXiv:2503.00096}, 2025.
+\newblock \doi{10.48550/arXiv.2503.00096}.
+
+\bibitem[Nair et~al.(2026)Nair, Gunsalus, Orcutt-Jahns, Rossen, Lal, De~Donno,
+  {\c{C}}elik, Fletez-Brant, Corrada~Bravo, and
+  Eraslan]{genentech_agentic_compbio}
+Nair, S., Gunsalus, L., Orcutt-Jahns, B., Rossen, J., Lal, A., De~Donno, C.,
+  {\c{C}}elik, M.~H., Fletez-Brant, K., Corrada~Bravo, H., and Eraslan, G.
+\newblock Agentic systems are adept at solving well-scoped, verifiable problems
+  in computational biology.
+\newblock \emph{bioRxiv}, 2026.
+\newblock \doi{10.64898/2026.04.06.716850}.
+\newblock Introduces CompBioBench; posted 9 April 2026.
+
+\bibitem[O'Donoghue et~al.(2023)O'Donoghue, Shtedritski, Ginger, Abboud,
+  Ghareeb, Booth, and Rodriques]{bioplanner}
+O'Donoghue, O., Shtedritski, A., Ginger, J., Abboud, R., Ghareeb, A.~E., Booth,
+  J., and Rodriques, S.~G.
+\newblock {BioPlanner}: Automatic evaluation of {LLM}s on protocol planning in
+  biology.
+\newblock \emph{arXiv preprint arXiv:2310.10632}, 2023.
+\newblock \doi{10.48550/arXiv.2310.10632}.
+\newblock Published at EMNLP 2023.
+
+\bibitem[Roohani et~al.(2024)Roohani, Lee, Huang, Vora, Steinhart, Huang,
+  Marson, Liang, and Leskovec]{biodiscoveryagent}
+Roohani, Y., Lee, A., Huang, Q., Vora, J., Steinhart, Z., Huang, K., Marson,
+  A., Liang, P., and Leskovec, J.
+\newblock {BioDiscoveryAgent}: An {AI} agent for designing genetic perturbation
+  experiments.
+\newblock \emph{arXiv preprint arXiv:2405.17631}, 2024.
+\newblock \doi{10.48550/arXiv.2405.17631}.
+\newblock Published at ICLR 2025.
+
+\bibitem[Swanson et~al.(2025)Swanson, Wu, Bulaong, et~al.]{virtuallab}
+Swanson, K., Wu, W., Bulaong, N.~L., et~al.
+\newblock The virtual lab of {AI} agents designs new {SARS-CoV-2} nanobodies.
+\newblock \emph{Nature}, 646:\penalty0 716--723, 2025.
+\newblock \doi{10.1038/s41586-025-09442-9}.
+
+\bibitem[VanOeffelen et~al.(2021)VanOeffelen, Nguyen, Aytan-Aktug, Brettin,
+  Dietrich, Kenyon, Machi, Mao, Olson, Pusch, Shukla, Stevens, Vonstein,
+  Warren, et~al.]{bvbrc}
+VanOeffelen, M., Nguyen, M., Aytan-Aktug, D., Brettin, T., Dietrich, E.~M.,
+  Kenyon, R.~W., Machi, D., Mao, C., Olson, R., Pusch, G.~D., Shukla, M.,
+  Stevens, R., Vonstein, V., Warren, A.~S., et~al.
+\newblock A genomic data resource for predicting antimicrobial resistance from
+  laboratory-derived antimicrobial susceptibility phenotypes.
+\newblock \emph{Briefings in Bioinformatics}, 22\penalty0 (6):\penalty0
+  bbab313, 2021.
+\newblock \doi{10.1093/bib/bbab313}.
+
+\bibitem[Wei et~al.(2025)Wei, Ektefaie, Zhou, Negatu, Aldridge, Dick,
+  Skarlinski, White, Rodriques, Hosseiniporgham, Parai, Flores, Inna, Zitnik,
+  Sacchettini, and Farhat]{fleming}
+Wei, Z., Ektefaie, Y., Zhou, A., Negatu, D., Aldridge, B.~B., Dick, T.~B.,
+  Skarlinski, M., White, A.~D., Rodriques, S.~G., Hosseiniporgham, S., Parai,
+  M., Flores, A., Inna, K.~V., Zitnik, M., Sacchettini, J., and Farhat, M.~R.
+\newblock Fleming: An {AI} agent for antibiotic discovery in {{\em
+  Mycobacterium tuberculosis}}.
+\newblock \emph{bioRxiv}, 2025.
+\newblock \doi{10.1101/2025.04.01.646719}.
+\newblock Preprint v1 posted 2025-04-07; v2 posted 2026-03-12.
+
+\end{thebibliography}

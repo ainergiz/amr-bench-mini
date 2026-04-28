@@ -1,0 +1,78 @@
+# MechReason Hard Split Summary
+
+- Split: `mechreason_hard_50`
+- Tasks: 50
+- Source: `data/tasks/mechreason.jsonl`
+- Selection: deterministic hard-category split from existing MechReason tasks
+- Overlap with original 50-task pilot: 19 tasks
+
+## Category Counts
+
+| Category | n |
+| --- | ---: |
+| `cefoxitin_substrate_decoy` | 10 |
+| `cefoxitin_true_hydrolysis_control` | 3 |
+| `drug_specificity_positive_control` | 4 |
+| `hybrid_porin_beta_lactamase` | 4 |
+| `hypothesisgen_insufficient_evidence` | 24 |
+| `intrinsic_acquired_ontology` | 3 |
+| `regulator_lof_vs_direct_efflux` | 2 |
+
+## Mechanism Class Counts
+
+| Mechanism class | n |
+| --- | ---: |
+| `efflux` | 4 |
+| `enzymatic_inactivation` | 3 |
+| `insufficient_evidence` | 24 |
+| `intrinsic` | 3 |
+| `permeability_loss` | 14 |
+| `regulator_loss_of_function` | 2 |
+
+## Antibiotic Counts
+
+| Antibiotic | n |
+| --- | ---: |
+| cefoxitin | 13 |
+| ciprofloxacin | 7 |
+| doripenem | 1 |
+| ertapenem | 1 |
+| fosfomycin | 3 |
+| imipenem | 1 |
+| levofloxacin | 4 |
+| meropenem | 1 |
+| nitrofurantoin | 3 |
+| polymyxin b | 1 |
+| tetracycline | 6 |
+| tigecycline | 8 |
+| trimethoprim/sulfamethoxazole | 1 |
+
+## Task IDs By Category
+
+### `cefoxitin_substrate_decoy`
+
+`mechreason_kp_000016`, `mechreason_kp_000063`, `mechreason_kp_000141`, `mechreason_kp_000155`, `mechreason_kp_000292`, `mechreason_kp_000316`, `mechreason_kp_000403`, `mechreason_kp_000445`, `mechreason_kp_000464`, `mechreason_kp_000483`
+
+### `cefoxitin_true_hydrolysis_control`
+
+`mechreason_kp_000046`, `mechreason_kp_000258`, `mechreason_kp_000610`
+
+### `drug_specificity_positive_control`
+
+`mechreason_kp_000531`, `mechreason_kp_000568`, `mechreason_kp_000778`, `mechreason_kp_000871`
+
+### `hybrid_porin_beta_lactamase`
+
+`mechreason_kp_000712`, `mechreason_kp_000713`, `mechreason_kp_000715`, `mechreason_kp_000717`
+
+### `hypothesisgen_insufficient_evidence`
+
+`mechreason_kp_000007`, `mechreason_kp_000009`, `mechreason_kp_000103`, `mechreason_kp_000105`, `mechreason_kp_000117`, `mechreason_kp_000261`, `mechreason_kp_000266`, `mechreason_kp_000275`, `mechreason_kp_000281`, `mechreason_kp_000342`, `mechreason_kp_000511`, `mechreason_kp_000532`, `mechreason_kp_000563`, `mechreason_kp_000565`, `mechreason_kp_000569`, `mechreason_kp_000603`, `mechreason_kp_000672`, `mechreason_kp_000680`, `mechreason_kp_000681`, `mechreason_kp_000779`, `mechreason_kp_000870`, `mechreason_kp_000872`, `mechreason_kp_000884`, `mechreason_kp_000900`
+
+### `intrinsic_acquired_ontology`
+
+`mechreason_kp_000357`, `mechreason_kp_000866`, `mechreason_kp_000896`
+
+### `regulator_lof_vs_direct_efflux`
+
+`mechreason_kp_000662`, `mechreason_kp_000922`

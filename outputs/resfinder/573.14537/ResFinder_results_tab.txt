@@ -1,0 +1,7 @@
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+aac(6')-Ib	99.67	606/606	100.0	1..606	573.14537.con.0077 type=contig length=4504	3535..4140	Amikacin, Tobramycin, Kanamycin, Amikacin, Tobramycin	M21682
+blaKPC-2	100.00	882/882	100.0	1..882	573.14537.con.0030 type=contig length=64156	54524..55405	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Aztreonam, Cefepime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam, Ticarcillin, Ticarcillin+Clavulanic acid	AY034847
+blaSHV-12	100.00	861/861	100.0	1..861	573.14537.con.0081 type=contig length=3965	24..884	Amoxicillin, Ampicillin, Aztreonam, Cefepime, Cefotaxime, Ceftazidime, Ceftriaxone, Piperacillin, Ticarcillin	KF976405
+fosA6	98.57	420/420	100.0	1..420	573.14537.con.0002 type=contig length=270316	255674..256093	Fosfomycin	KU254579
+OqxB	100.00	3153/3153	100.0	1..3153	573.14537.con.0028 type=contig length=66588	31492..34644	Chloramphenicol, Nalidixic acid, Ciprofloxacin, Trimethoprim	EU370913
+OqxA	100.00	1176/1176	100.0	1..1176	573.14537.con.0028 type=contig length=66588	34668..35843	Chloramphenicol, Nalidixic acid, Ciprofloxacin, Trimethoprim	EU370913

@@ -1,0 +1,43 @@
+{
+  "audit_size": 29,
+  "stratified_targets": {
+    "insufficient_evidence": 6,
+    "regulator_loss_of_function": 5,
+    "permeability_loss": 6,
+    "intrinsic": 1,
+    "target_modification": 4,
+    "efflux": 3,
+    "metabolic_bypass": 3,
+    "enzymatic_inactivation": 4,
+    "target_protection": 0
+  },
+  "available_per_class": {
+    "enzymatic_inactivation": 681,
+    "insufficient_evidence": 24,
+    "efflux": 47,
+    "metabolic_bypass": 51,
+    "target_modification": 92,
+    "permeability_loss": 24,
+    "intrinsic": 3,
+    "regulator_loss_of_function": 2
+  },
+  "sampled_per_class": {
+    "efflux": 3,
+    "enzymatic_inactivation": 4,
+    "insufficient_evidence": 6,
+    "intrinsic": 1,
+    "metabolic_bypass": 3,
+    "permeability_loss": 6,
+    "regulator_loss_of_function": 2,
+    "target_modification": 4,
+    "target_protection": 0
+  },
+  "instructions_for_auditor": [
+    "Read audit_pack.md card-by-card, alongside audit_form.tsv (one row per card).",
+    "For each task, set gold_class_decision to KEEP, OVERRIDE, or AMBIGUOUS.",
+    "If OVERRIDE: set gold_class_proposed to one of: efflux, enzymatic_inactivation, insufficient_evidence, intrinsic, metabolic_bypass, permeability_loss, regulator_loss_of_function, target_modification, target_protection",
+    "Do the same for required_genes_decision/proposed if needed.",
+    "Add free-text notes capturing the biological reasoning, esp. for AMBIGUOUS / OVERRIDE rows.",
+    "When done, run scripts/apply_audit_overrides.py to rebuild MechReason gold."
+  ]
+}

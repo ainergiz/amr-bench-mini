@@ -1,0 +1,55 @@
+{
+  "by_track": {
+    "mechreason": {
+      "accuracy": 1.0,
+      "json_valid_rate": 1.0,
+      "mean_evidence_items": 4.0,
+      "n": 3
+    }
+  },
+  "cost_estimate_usd": {
+    "input_tokens": 0,
+    "model": "gpt-5.4",
+    "note": "No price table entry for this model. Set AMR_BENCH_PRICING_OVERRIDES to a JSON file with the same shape as PRICE_TABLE to attach a price.",
+    "output_tokens": 0,
+    "provider": "openai"
+  },
+  "mechreason_breakdown": {
+    "by_class": {
+      "insufficient_evidence": {
+        "accuracy": 1.0,
+        "correct": 1,
+        "n": 1
+      },
+      "permeability_loss": {
+        "accuracy": 1.0,
+        "correct": 1,
+        "n": 1
+      },
+      "target_modification": {
+        "accuracy": 1.0,
+        "correct": 1,
+        "n": 1
+      }
+    },
+    "n_mechreason": 3,
+    "parse_or_call_errors": 0,
+    "subscore_rates": {
+      "gene_family_correct": 0.6666666666666666,
+      "layers_complete": 1.0,
+      "mechanism_class_correct": 1.0
+    }
+  },
+  "mode": "smoke (real API)",
+  "model": "gpt-5.4",
+  "n_tasks": 3,
+  "overall": {
+    "accuracy": 1.0,
+    "json_valid_rate": 1.0,
+    "mean_evidence_items": 4.0,
+    "n": 3
+  },
+  "provider": "openai",
+  "run_name": "smoke_20260425T192937Z",
+  "timestamp_utc": "2026-04-25T19:30:32.743591+00:00"
+}

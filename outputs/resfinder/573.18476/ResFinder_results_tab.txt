@@ -1,0 +1,18 @@
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+aph(6)-Id	100.00	837/837	100.0	1..837	573.18476.con.0002 type=contig length=65276	8913..9749	Streptomycin	M28829
+aph(3'')-Ib	100.00	804/804	100.0	1..804	573.18476.con.0002 type=contig length=65276	9749..10552	Streptomycin	AF321551
+aac(6')-Ib-cr	100.00	600/600	100.0	1..600	573.18476.con.0002 type=contig length=65276	62320..62919	Tobramycin, Dibekacin, Amikacin, Sisomicin, Netilmicin, Fluoroquinolone, Ciprofloxacin	DQ303918
+blaOXA-48	100.00	798/798	100.0	1..798	573.18476.con.0003 type=contig length=63075	44168..44965	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	AY236073
+blaSHV-11	99.77	861/861	100.0	1..861	573.18476.con.0001 type=contig length=5256457	1452127..1452987	Amoxicillin, Ampicillin, Cephalothin, Piperacillin, Ticarcillin	X98101
+blaSHV-67	99.77	861/861	100.0	1..861	573.18476.con.0001 type=contig length=5256457	1452127..1452987	Unknown Beta-lactam	DQ174307
+blaCTX-M-15	100.00	876/876	100.0	1..876	573.18476.con.0002 type=contig length=65276	3635..4510	Amoxicillin, Ampicillin, Aztreonam, Cefepime, Cefotaxime, Ceftazidime, Ceftriaxone, Piperacillin, Ticarcillin	AY044436
+blaTEM-1B	100.00	861/861	100.0	1..861	573.18476.con.0002 type=contig length=65276	7332..8192	Amoxicillin, Ampicillin, Cephalothin, Piperacillin, Ticarcillin	AY458016
+blaOXA-1	100.00	831/831	100.0	1..831	573.18476.con.0002 type=contig length=65276	63050..63880	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Piperacillin, Piperacillin+Tazobactam	HQ170510
+fosA	98.79	413/420	98.33333333333333	1..413	573.18476.con.0001 type=contig length=5256457	3343797..3344209	Fosfomycin	AFBO01000747
+catB3	100.00	442/633	69.826224328594	1..442	573.18476.con.0002 type=contig length=65276	64018..64459	Chloramphenicol	AJ009818
+catB3	100.00	442/633	69.826224328594	1..442	573.18476.con.0002 type=contig length=65276	64018..64459	Chloramphenicol	U13880
+OqxB	98.54	3153/3153	100.0	1..3153	573.18476.con.0001 type=contig length=5256457	5216133..5219285	Chloramphenicol, Nalidixic acid, Ciprofloxacin, Trimethoprim	EU370913
+OqxA	99.49	1176/1176	100.0	1..1176	573.18476.con.0001 type=contig length=5256457	5219309..5220484	Chloramphenicol, Nalidixic acid, Ciprofloxacin, Trimethoprim	EU370913
+sul2	100.00	816/816	100.0	1..816	573.18476.con.0002 type=contig length=65276	10613..11428	Sulfamethoxazole	AY034138
+tet(A)	100.00	1200/1200	100.0	1..1200	573.18476.con.0002 type=contig length=65276	57666..58865	Doxycycline, Tetracycline	AJ517790
+dfrA14	100.00	474/474	100.0	1..474	573.18476.con.0002 type=contig length=65276	44902..45375	Trimethoprim	KF921535

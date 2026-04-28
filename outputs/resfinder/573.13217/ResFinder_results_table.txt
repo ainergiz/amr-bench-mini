@@ -1,0 +1,66 @@
+Aminoglycoside
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+aadA2b	99.87	780/780	100.0	1..780	573.13217.con.0110 type=contig length=10106	6957..7736	Spectinomycin, Streptomycin	D43625
+aph(3')-Ia	100.00	816/816	100.0	1..816	573.13217.con.0196 type=contig length=1278	215..1030	Unknown Aminoglycoside, Kanamycin, Neomycin, Kanamycin, Lividomycin, Paromomycin, Ribostamycin, Kanamycin, Neomycin	V00359
+aac(6')-Ib	100.00	606/606	100.0	1..606	573.13217.con.0143 type=contig length=4488	3435..4040	Amikacin, Tobramycin, Kanamycin, Amikacin, Tobramycin	M21682
+
+Beta-lactam
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+blaSHV-182	99.88	861/861	100.0	1..861	573.13217.con.0121 type=contig length=7495	6401..7261	Unknown Beta-lactam	KP050489
+blaSHV-159	99.88	861/861	100.0	1..861	573.13217.con.0121 type=contig length=7495	6401..7261	Unknown Beta-lactam	JX121126
+blaSHV-158	99.88	861/861	100.0	1..861	573.13217.con.0121 type=contig length=7495	6401..7261	Unknown Beta-lactam	JX121125
+blaOXA-9	99.88	825/825	100.0	1..825	573.13217.con.0197 type=contig length=1231	245..1069	Amoxicillin, Ampicillin	KQ089875
+blaKPC-2	100.00	882/882	100.0	1..882	573.13217.con.0140 type=contig length=4797	1946..2827	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Aztreonam, Cefepime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam, Ticarcillin, Ticarcillin+Clavulanic acid	AY034847
+
+Colistin
+No hit found
+
+Fosfomycin
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+fosA6	98.81	420/420	100.0	1..420	573.13217.con.0095 type=contig length=14798	14018..14437	Fosfomycin	KU254579
+
+Fusidic Acid
+No hit found
+
+MLS - Macrolide, Lincosamide and Streptogramin B
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+mph(A)	100.00	906/906	100.0	1..906	573.13217.con.0120 type=contig length=7846	147..1052	Erythromycin, Azithromycin, Spiramycin, Telithromycin	D16251
+
+Misc
+No hit found
+
+Nitroimidazole
+No hit found
+
+Oxazolidinone
+No hit found
+
+Phenicol
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+catA1	99.85	660/660	100.0	1..660	573.13217.con.0110 type=contig length=10106	274..933	Chloramphenicol	V00622
+
+Fluoroquinolone
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+OqxB	100.00	3153/3153	100.0	1..3153	573.13217.con.0001 type=contig length=233335	198270..201422	Chloramphenicol, Nalidixic acid, Ciprofloxacin, Trimethoprim	EU370913
+OqxA	100.00	1176/1176	100.0	1..1176	573.13217.con.0001 type=contig length=233335	201446..202621	Chloramphenicol, Nalidixic acid, Ciprofloxacin, Trimethoprim	EU370913
+
+Rifampicin
+No hit found
+
+Sulphonamide
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+sul1	100.00	840/840	100.0	1..840	573.13217.con.0110 type=contig length=10106	8241..9080	Sulfamethoxazole	U12338
+
+Tetracycline
+No hit found
+
+Trimethoprim
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+dfrA12	100.00	498/498	100.0	1..498	573.13217.con.0202 type=contig length=1114	82..579	Trimethoprim	AM040708
+
+Glycopeptide
+No hit found
+
+Pseudomonic Acid
+No hit found
+

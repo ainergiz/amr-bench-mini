@@ -1,0 +1,420 @@
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                                                                                                                            Beta-lactam                                                                                                                                                                             |
++-------------------+------------+--------------------------------+------------+-------------------------+----------------------------------------------+----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
+| Resistance gene   |   Identity | Alignment Length/Gene Length   |   Coverage | Position in reference   | Contig                                       | Position in contig   | Phenotype                                                                                                                                                         | Accession no.   |
+|-------------------+------------+--------------------------------+------------+-------------------------+----------------------------------------------+----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------|
+| blaSHV-26         |        100 | 860/861                        |    99.8839 | 2..861                  | 573.15567.con.0001 type=contig length=687465 | 27810..28669         | Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Piperacillin, Piperacillin+Tazobactam, Ticarcillin, Ticarcillin+Clavulanic acid | AF227204        |
++-------------------+------------+--------------------------------+------------+-------------------------+----------------------------------------------+----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                                                  Fosfomycin                                                                                                  |
++-------------------+------------+--------------------------------+------------+-------------------------+----------------------------------------------+----------------------+-------------+-----------------+
+| Resistance gene   |   Identity | Alignment Length/Gene Length   |   Coverage | Position in reference   | Contig                                       | Position in contig   | Phenotype   | Accession no.   |
+|-------------------+------------+--------------------------------+------------+-------------------------+----------------------------------------------+----------------------+-------------+-----------------|
+| fosA5             |    98.3333 | 420/420                        |        100 | 1..420                  | 573.15567.con.0006 type=contig length=356275 | 341503..341922       | Fosfomycin  | EU195449        |
++-------------------+------------+--------------------------------+------------+-------------------------+----------------------------------------------+----------------------+-------------+-----------------+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                                                                       Fluoroquinolone                                                                                                                        |
++-------------------+------------+--------------------------------+------------+-------------------------+---------------------------------------------+----------------------+--------------------------------------------------------------+-----------------+
+| Resistance gene   |   Identity | Alignment Length/Gene Length   |   Coverage | Position in reference   | Contig                                      | Position in contig   | Phenotype                                                    | Accession no.   |
+|-------------------+------------+--------------------------------+------------+-------------------------+---------------------------------------------+----------------------+--------------------------------------------------------------+-----------------|
+| OqxB              |    98.8265 | 3153/3153                      |        100 | 1..3153                 | 573.15567.con.0018 type=contig length=97816 | 44220..47372         | Chloramphenicol, Nalidixic acid, Ciprofloxacin, Trimethoprim | EU370913        |
+| OqxA              |    99.4048 | 1176/1176                      |        100 | 1..1176                 | 573.15567.con.0018 type=contig length=97816 | 43021..44196         | Chloramphenicol, Nalidixic acid, Ciprofloxacin, Trimethoprim | EU370913        |
++-------------------+------------+--------------------------------+------------+-------------------------+---------------------------------------------+----------------------+--------------------------------------------------------------+-----------------+
+
+##################### beta-lactam #####################
+blaSHV-26, ID: 100.00 %, Alignment Length/Gene Length: 860/861, Coverage: 99.88385598141696, Positions in reference: 2..861, Contig name: 573.15567.con.0001 type=contig length=687465, Position: 27810..28669
+
+ATGCGTTATATTCGCCTGTGTATTATCTCCCTGTTAGCCACCCTGCCGCTGGCGGTACAC
+ |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+cTGCGTTATATTCGCCTGTGTATTATCTCCCTGTTAGCCACCCTGCCGCTGGCGGTACAC
+
+GCCAGCCCGCAGCCGCTTGAGCAAATTAAACTAAGCGAAAGCCAGCTGTCGGGCCGCGTA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GCCAGCCCGCAGCCGCTTGAGCAAATTAAACTAAGCGAAAGCCAGCTGTCGGGCCGCGTA
+
+GGCATGATAGAAATGGATCTGGCCAGCGGCCGCACGCTGACCGCCTGGCGCGCCGATGAA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GGCATGATAGAAATGGATCTGGCCAGCGGCCGCACGCTGACCGCCTGGCGCGCCGATGAA
+
+CGCTTTCCCATGATGAGCACCTTTAAAGTAGTGCTCTGCGGCGCAGTGCTGGCGCGGGTG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CGCTTTCCCATGATGAGCACCTTTAAAGTAGTGCTCTGCGGCGCAGTGCTGGCGCGGGTG
+
+GATGCCGGTGACGAACAGCTGGAGCGAAAGATCCACTATCGCCAGCAGGATCTGGTGGAC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GATGCCGGTGACGAACAGCTGGAGCGAAAGATCCACTATCGCCAGCAGGATCTGGTGGAC
+
+TACTCGCCGGTCAGCGAAAAACACCTTGCCGACGGCATGACGGTCGGCGAACTCTGCGCC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TACTCGCCGGTCAGCGAAAAACACCTTGCCGACGGCATGACGGTCGGCGAACTCTGCGCC
+
+GCCGCCATTACCATGAGCGATAACAGCGCCGCCAATCTGCTGCTGGCCACCGTCGGCGGC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GCCGCCATTACCATGAGCGATAACAGCGCCGCCAATCTGCTGCTGGCCACCGTCGGCGGC
+
+CCCGCAGGATTGACTGCCTTTTTGCGCCAGATCGGCGACAACGTCACCCGCCTTGACCGC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CCCGCAGGATTGACTGCCTTTTTGCGCCAGATCGGCGACAACGTCACCCGCCTTGACCGC
+
+TGGGAAACGGAACTGAATGAGGCGCTTCCCGGCGACGCCCGCGACACCACTACCCCGGCC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TGGGAAACGGAACTGAATGAGGCGCTTCCCGGCGACGCCCGCGACACCACTACCCCGGCC
+
+AGCATGACCGCGACCCTGCGCAAGCTGCTGACCAGCCAGCGTCTGAGCGCCCGTTCGCAA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AGCATGACCGCGACCCTGCGCAAGCTGCTGACCAGCCAGCGTCTGAGCGCCCGTTCGCAA
+
+CGGCAGCTGCTGCAGTGGATGGTGGACGATCGGGTCGCCGGACCGTTGATCCGCTCCGTG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CGGCAGCTGCTGCAGTGGATGGTGGACGATCGGGTCGCCGGACCGTTGATCCGCTCCGTG
+
+CTGCCGGCGGGCTGGTTTATCGCCGATAAGACCGGAGCTGGCGAGCGGGGTGCGCGCGGC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CTGCCGGCGGGCTGGTTTATCGCCGATAAGACCGGAGCTGGCGAGCGGGGTGCGCGCGGC
+
+ATTGTCGCCCTGCTTGGCCCGAATAACAAAGCAGAGCGCATTGTGGTGATTTATCTGCGG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ATTGTCGCCCTGCTTGGCCCGAATAACAAAGCAGAGCGCATTGTGGTGATTTATCTGCGG
+
+GATACGCCGGCGAGCATGGCCGAGCGAAATCAGCAAATCGCCGGGATCGGCGCGGCGCTG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GATACGCCGGCGAGCATGGCCGAGCGAAATCAGCAAATCGCCGGGATCGGCGCGGCGCTG
+
+ATCGAGCACTGGCAACGCTAA
+|||||||||||||||||||||
+ATCGAGCACTGGCAACGCTAA
+
+
+##################### fosfomycin #####################
+fosA5, ID: 98.33 %, Alignment Length/Gene Length: 420/420, Coverage: 100.0, Positions in reference: 1..420, Contig name: 573.15567.con.0006 type=contig length=356275, Position: 341503..341922
+
+ATGCTGAGTGGACTGAATCACCTGACCCTGGCAGTCAGCCAGCTGGCGCCGAGCGTGGCG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ATGCTGAGTGGACTGAATCACCTGACCCTGGCAGTCAGCCAGCTGGCGCCGAGCGTGGCG
+
+TTTTATCAGCAGCTGCTGGGCATGATGCTGCATGCCCGCTGGGACAGCGGGGCTTATCTC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TTTTATCAGCAGCTGCTGGGCATGATGCTGCATGCCCGCTGGGACAGCGGGGCTTATCTC
+
+TCCTGCGGCGATCTGTGGCTGTGCCTGTCGCTGGATCCGCAGCGGCGCGTTACTCCGCCG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TCCTGCGGCGATCTGTGGCTGTGCCTGTCGCTGGATCCGCAGCGGCGCGTTACTCCGCCG
+
+GAAGAGAGCGACTACACCCATTATGCGTTTAGTATTAGCGAAGCCGATTTTGCTAGCTTC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GAAGAGAGCGACTACACCCATTATGCGTTTAGTATTAGCGAAGCCGATTTTGCTAGCTTC
+
+GCCGCCCGCCTTGAGGCTGCCGGCGTAGCGGTCTGGAAGCTGAACCGTAGCGAAGGCGCT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GCCGCCCGCCTTGAGGCTGCCGGCGTAGCGGTCTGGAAGCTGAACCGTAGCGAAGGCGCT
+
+TCGCACTATTTCCTCGATCCCGATGGCCATAAGCTGGAGCTGCACGTCGGCAGTCTCGCC
+|||||||| || ||||| ||||| ||||| ||||||||||||||||||||||||||||||
+TCGCACTACTTTCTCGACCCCGACGGCCACAAGCTGGAGCTGCACGTCGGCAGTCTCGCC
+
+CAGCGTCTGGCCGCCTGCCGCGAGCAGCCGTATAAGGGGATGGTGTTTTTTGCTGAGTGA
+||||| |||||||||||||||||||||||||||||||||||||||||||||| |||||||
+CAGCGCCTGGCCGCCTGCCGCGAGCAGCCGTATAAGGGGATGGTGTTTTTTGATGAGTGA
+
+
+##################### quinolone #####################
+OqxB, ID: 98.83 %, Alignment Length/Gene Length: 3153/3153, Coverage: 100.0, Positions in reference: 1..3153, Contig name: 573.15567.con.0018 type=contig length=97816, Position: 44220..47372
+
+ATGGACTTTTCCCGCTTTTTTATCGACAGGCCGATTTTCGCCGCGGTGCTGTCGATTTTA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ATGGACTTTTCCCGCTTTTTTATCGACAGGCCGATTTTCGCCGCGGTGCTGTCGATTTTA
+
+ATTTTTATCACCGGGTTAATCGCTATCCCACTGCTGCCGGTGAGCGAATATCCGGATGTC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ATTTTTATCACCGGGTTAATCGCTATCCCACTGCTGCCGGTGAGCGAATATCCGGATGTC
+
+GTCCCGCCGAGCGTCCAGGTGCGCGCGGAGTATCCCGGCGCCAACCCGAAAGTGATTGCC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GTCCCGCCGAGCGTCCAGGTGCGCGCGGAGTATCCCGGCGCCAACCCGAAAGTGATTGCC
+
+GAGACCGTGGCGACGCCGCTGGAGGAAGCGATCAACGGCGTTGAAAACATGATGTACATG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GAGACCGTGGCGACGCCGCTGGAGGAAGCGATCAACGGCGTTGAAAACATGATGTACATG
+
+AAATCGGTCGCCGGCTCCGACGGCGTGCTGGTCACCACCGTCACCTTCCGCCCGGGTACC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AAATCGGTCGCCGGCTCCGACGGCGTGCTGGTCACCACCGTCACCTTCCGCCCGGGTACC
+
+GACCCGGATCAGGCGCAGGTTCAGGTGCAGAACCGCGTCGCGCAGGCCGAAGCGCGTCTG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GACCCGGATCAGGCGCAGGTTCAGGTGCAGAACCGCGTCGCGCAGGCCGAAGCGCGTCTG
+
+CCGGAGGATGTACGCCGTCTGGGGATCACCACCCAGAAGCAGTCTCCGACGCTGACCCTG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CCGGAGGATGTACGCCGTCTGGGGATCACCACCCAGAAGCAGTCTCCGACGCTGACCCTG
+
+GTGGTGCATCTGTTCTCCCCCGGCGGGAAGTACGACTCGCTGTATATGCGCAACTACGCC
+|||||||||||||| || ||   |||||||||||||||||||||||||||||||||||||
+GTGGTGCATCTGTTTTCGCCAAACGGGAAGTACGACTCGCTGTATATGCGCAACTACGCC
+
+ACGCTGAAAGTGAAGGATGAGCTGGCGCGCCTGCCCGGCGTCGGCCAGATCCAGATTTTT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ACGCTGAAAGTGAAGGATGAGCTGGCGCGCCTGCCCGGCGTCGGCCAGATCCAGATTTTT
+
+GGCTCCGGTGAATATGCGATGCGCGTCTGGCTGGATCCCAATAAGGTCGCTGCCCGCGGT
+|||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||
+GGCTCCGGTGAATATGCGATGCGCGTCTGGCTGGATCCCAATAAGGTCGCGGCCCGCGGT
+
+CTGACGGCCTCGGATGTGGTGACGGCGATGCAGGAGCAAAACGTCCAGGTGTCTGCCGGA
+|||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||
+CTGACGGCTTCGGATGTGGTGACGGCGATGCAGGAGCAAAACGTCCAGGTGTCTGCCGGA
+
+CAGCTTGGCGCCGAGCCGCTGCCGCAGGAGAGCGATTTCCTGATCTCCATTAACGCCCAG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CAGCTTGGCGCCGAGCCGCTGCCGCAGGAGAGCGATTTCCTGATCTCCATTAACGCCCAG
+
+GGCCGTCTGCATACCGAAGAAGAGTTTGGCAATATCATTCTGAAAACGGCGCAGGATGGC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GGCCGTCTGCATACCGAAGAAGAGTTTGGCAATATCATTCTGAAAACGGCGCAGGATGGC
+
+TCGCTGGTCCGCCTGCGCGACGTGGCGCGCATCGAGATGGGTTCCGGTAGCTATGCGCTG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TCGCTGGTCCGCCTGCGCGACGTGGCGCGCATCGAGATGGGTTCCGGTAGCTATGCGCTG
+
+CGCTCCCAGCTCAACAATAAGGATGCGGTCGGGATCGGTATCTTCCAGTCACCCGGCGCT
+||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||
+CGCTCCCAGCTCAACAATAAGGATGCGGTCGGGATCGGTATCTTCCAGTCACCAGGCGCT
+
+AACGCCATCGATCTGTCGAACGCGGTACGCGCCAAAATGGCCGAGCTGGCCACCCGCTTC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AACGCCATCGATCTGTCGAACGCGGTACGCGCCAAAATGGCCGAGCTGGCCACCCGCTTC
+
+CCGGAAGATATGCAATGGGCGGCGCCGTACGACCCGACGGTTTTCGTCCGCGACTCCATC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CCGGAAGATATGCAATGGGCGGCGCCGTACGACCCGACGGTTTTCGTCCGCGACTCCATC
+
+CGCGCGGTGGTGCAGACGCTGCTGGAGGCGGTAGTGCTGGTGGTGCTGGTAGTGATCCTG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CGCGCGGTGGTGCAGACGCTGCTGGAGGCGGTAGTGCTGGTGGTGCTGGTAGTGATCCTG
+
+TTCCTGCAGACCTGGCGCGCGTCGATTATCCCGTTGATCGCTGTGCCGGTATCGGTGGTG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TTCCTGCAGACCTGGCGCGCGTCGATTATCCCGTTGATCGCTGTGCCGGTATCGGTGGTG
+
+GGTACCTTCAGCATTCTCTATCTGCTGGGCTTCTCGCTGAATACCCTGAGCCTGTTCGGG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GGTACCTTCAGCATTCTCTATCTGCTGGGCTTCTCGCTGAATACCCTGAGCCTGTTCGGG
+
+CTGGTACTGGCTATCGGTATCGTGGTGGACGACGCCATCGTGGTGGTGGAGAACGTCGAG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CTGGTACTGGCTATCGGTATCGTGGTGGACGACGCCATCGTGGTGGTGGAGAACGTCGAG
+
+CGTAATATCGAAGAGGGGCTTGCGCCGCTTGCCGCGGCGCATCAGGCGATGCGTGAGGTC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CGTAATATCGAAGAGGGGCTTGCGCCGCTTGCCGCGGCGCATCAGGCGATGCGTGAGGTC
+
+TCCGGGCCGATTATCGCCATTGCGCTGGTGCTGTGTGCGGTGTTCGTGCCGATGGCGTTT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TCCGGGCCGATTATCGCCATTGCGCTGGTGCTGTGTGCGGTGTTCGTGCCGATGGCGTTT
+
+CTCTCCGGGGTCACCGGCCAGTTCTACAAACAGTTCGCGGTGACCATCGCCATCTCGACG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CTCTCCGGGGTCACCGGCCAGTTCTACAAACAGTTCGCGGTGACCATCGCCATCTCGACG
+
+GTGATCTCGGCCATCAACTCGCTGACGCTCTCCCCGGCGCTGGCGGCCCTGCTGTTAAAG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GTGATCTCGGCCATCAACTCGCTGACGCTCTCCCCGGCGCTGGCGGCCCTGCTGTTAAAG
+
+CCGCACGGCGCGAAGAAAGACCTCCCTACCCGGCTGATCGATCGCCTGTTTGGCTGGATT
+|| ||||||||||||||||| ||||||||||||||||||||||| |||||||||||||||
+CCTCACGGCGCGAAGAAAGATCTCCCTACCCGGCTGATCGATCGTCTGTTTGGCTGGATT
+
+TTCCGTCCGTTTAACCGCTTTTTCCTGCGCAGCTCGAACGGCTATCAGGGACTGGTAGGC
+|||||||||||||||||||||||||||||||||||||||||||||||||| |||||  ||
+TTCCGTCCGTTTAACCGCTTTTTCCTGCGCAGCTCGAACGGCTATCAGGGGCTGGTGAGC
+
+AAAACGCTTGGACGCCGTGGCGCAGTGTTTGCGGTGTACCTGCTGCTGCTCTGCGCCGCT
+||||| || |||||||||||||| |||||||||||||| |||||||||||||||||||||
+AAAACCCTCGGACGCCGTGGCGCGGTGTTTGCGGTGTATCTGCTGCTGCTCTGCGCCGCT
+
+GGGGTGATGTTTAAAGTCGTCCCCGGCGGGTTTATTCCCACCCAGGATAAGCTGTATCTC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GGGGTGATGTTTAAAGTCGTCCCCGGCGGGTTTATTCCCACCCAGGATAAGCTGTATCTC
+
+ATTGGCGGCGTGAAGATGCCGGAAGGGTCGTCGCTGGCGCGCACCGACGCGGTGATCCGC
+|||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||
+ATTGGCGGCGTGAAGATGCCGGAAGGGTCGTCGCTGGCGCGCACCGACGCAGTGATCCGC
+
+AAAATGAGCGAGATCGGGATGAATACCGAAGGGGTCGACTATGCGGTCGCTTTCCCGGGG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AAAATGAGCGAGATCGGGATGAATACCGAAGGGGTCGACTATGCGGTCGCTTTCCCGGGG
+
+CTTAACGCGCTGCAGTTCACCAACACGCCGAATACCGGGACGGTCTTTTTTGGCCTGAAA
+|||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||
+CTTAACGCGCTGCAGTTCACCAACACGCCGAACACCGGGACGGTCTTTTTTGGCCTGAAA
+
+CCGTTCGACCAGCGCAAACACACGGCGGCGGAAATTAACGCGGAGATCAACGCCAAAATC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CCGTTCGACCAGCGCAAACACACGGCGGCGGAAATTAACGCGGAGATCAACGCCAAAATC
+
+GCGCAAATCCAGCAGGGCTTTGGCTTTTCCATCCTGCCGCCGCCGATTTTAGGTCTGGGT
+|||||||||||||||||||||||||| |||||||||||||||||||||||||| ||||||
+GCGCAAATCCAGCAGGGCTTTGGCTTCTCCATCCTGCCGCCGCCGATTTTAGGACTGGGT
+
+CAGGGTTCCGGCTACTCCCTGTACATCCAGGATCGCGGAGGGCTGGGCTATGGCGCGCTG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CAGGGTTCCGGCTACTCCCTGTACATCCAGGATCGCGGAGGGCTGGGCTATGGCGCGCTG
+
+CAAAGCGCGGTGAATGCGATGTCCGGGGCGATTATGCAGACGCCGGGGATGCACTTCCCG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CAAAGCGCGGTGAATGCGATGTCCGGGGCGATTATGCAGACGCCGGGGATGCACTTCCCG
+
+ATCTCGACTTACCAGGCTAACGTGCCGCAGCTGGACGTGCAGGTCGATCGCGATAAGGCG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ATCTCGACTTACCAGGCTAACGTGCCGCAGCTGGACGTGCAGGTCGATCGCGATAAGGCG
+
+AAAGCGCAGGGGGTATCGCTAACCGATCTGTTCGGTACGCTGCAGACCTATCTCGGCTCG
+|||||||||||||||||||||||||| || ||||||||||||||||||||||||||||||
+AAAGCGCAGGGGGTATCGCTAACCGAGCTATTCGGTACGCTGCAGACCTATCTCGGCTCG
+
+TCTTATGTCAATGACTTTAACCAGTTCGGGCGTACCTGGCGCGTGATGGCCCAGGCTGAC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TCTTATGTCAATGACTTTAACCAGTTCGGGCGTACCTGGCGCGTGATGGCCCAGGCTGAC
+
+GGACCATACCGCGAGAGCGTGGAAGATATCGCCAATCTGCGCACCCGCAATAATCAGGGC
+|||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||
+GGACCATACCGCGAAAGCGTGGAAGATATCGCCAATCTGCGCACCCGCAATAATCAGGGC
+
+GAAATGGTACCGATCGGCAGTATGGTGAATATCAGTACCACCTACGGGCCGGATCCGGTG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GAAATGGTACCGATCGGCAGTATGGTGAATATCAGTACCACCTACGGGCCGGATCCGGTG
+
+ATCCGCTACAACGGTTATCCGGCGGCGGACCTGATTGGCGATGCCGATCCGCGGGTCCTC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ATCCGCTACAACGGTTATCCGGCGGCGGACCTGATTGGCGATGCCGATCCGCGGGTCCTC
+
+TCTTCTTCGCAGGCGATGACGCATCTGGAAGAGCTGTCGAAGCAGATCCTGCCGAATGGG
+|||||||| |||||||||||||||||||| ||||||||||||||||||||||||||||||
+TCTTCTTCACAGGCGATGACGCATCTGGAGGAGCTGTCGAAGCAGATCCTGCCGAATGGG
+
+ATGAATATTGAGTGGACGGATCTCAGCTTCCAGCAGGCCACCCAGGGCAACACGGCGCTG
+||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+ATGAATATTGAGTGGACGGATCTGAGCTTCCAGCAGGCCACCCAGGGCAACACGGCGCTG
+
+ATCGTCTTCCCGGTGGCGGTGCTGCTGGCATTCCTCGTACTGGCCGCGCTGTATGAAAGC
+||||||||||||||||||||||||||||| |||||||| |||||||||||||||||||||
+ATCGTCTTCCCGGTGGCGGTGCTGCTGGCGTTCCTCGTGCTGGCCGCGCTGTATGAAAGC
+
+TGGACCCTGCCGCTGGCGGTGATCCTTATCGTACCGATGACGATGCTCTCCGCGCTGTTT
+|||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||
+TGGACATTGCCGCTGGCGGTGATCCTTATCGTACCGATGACGATGCTCTCCGCGCTGTTT
+
+GGCGTCTGGCTGACCGGGGGCGATAACAACGTCTTCGTGCAGGTGGGTCTGGTGGTCCTG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GGCGTCTGGCTGACCGGGGGCGATAACAACGTCTTCGTGCAGGTGGGTCTGGTGGTCCTG
+
+ATGGGCCTGGCCTGTAAAAACGCCATTCTGATCGTCGAGTTTGCCCGCGAGCTGGAGATC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ATGGGCCTGGCCTGTAAAAACGCCATTCTGATCGTCGAGTTTGCCCGCGAGCTGGAGATC
+
+CAGGGGAAAGGCATCATGGAAGCGGCGCTGGAGGCATGCCGCCTGCGTCTGCGCCCGATC
+||||||||||||||||||||||| || |||||||| ||||||||||||||||||||||||
+CAGGGGAAAGGCATCATGGAAGCCGCCCTGGAGGCGTGCCGCCTGCGTCTGCGCCCGATC
+
+GTGATGACCTCCATCGCCTTTATCGCCGGGACCATTCCGCTGATCCTCGGCCACGGCGCG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GTGATGACCTCCATCGCCTTTATCGCCGGGACCATTCCGCTGATCCTCGGCCACGGCGCG
+
+GGGGCGGAAGTCCGCGGCGTCACCGGGATCACGGTGTTCTCCGGGATGCTGGGCGTGACG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GGGGCGGAAGTCCGCGGCGTCACCGGGATCACGGTGTTCTCCGGGATGCTGGGCGTGACG
+
+CTCTTCGGTCTGTTCCTGACGCCGGTGTTTTACGTGACGCTACGGAAACTGGTGACCCGC
+||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||
+CTCTTCGGTCTGTTCCTGACGCCGGTGTTTTACGTGACGCTGCGAAAACTGGTGACCCGC
+
+AGGAAGCCGGTCCAGGAGGATCTGCCCGCCTAG
+|||||||||||||||||||||||||||||||||
+AGGAAGCCGGTCCAGGAGGATCTGCCCGCCTAG
+
+
+OqxA, ID: 99.40 %, Alignment Length/Gene Length: 1176/1176, Coverage: 100.0, Positions in reference: 1..1176, Contig name: 573.15567.con.0018 type=contig length=97816, Position: 43021..44196
+
+ATGAGCCTGCAAAAAACCTGGGGAAACATTCACCTGACCGCGCTCGGCGCGATGATGCTC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ATGAGCCTGCAAAAAACCTGGGGAAACATTCACCTGACCGCGCTCGGCGCGATGATGCTC
+
+TCCTTTCTGCTCGTCGGCTGCGACGACAGCGTCGCACAGAATGCTGCGCCTCCCGCCCCG
+||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||
+TCCTTTCTGCTCGTCGGCTGCGACGACAGCGTCGCGCAGAATGCTGCGCCTCCCGCCCCG
+
+ACGGTCAGCGCCGCTAAGGTGCTGGTGAAGTCGATCAGTCAGTGGGATAGTTTTAACGGT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ACGGTCAGCGCCGCTAAGGTGCTGGTGAAGTCGATCAGTCAGTGGGATAGTTTTAACGGT
+
+CGCATTGAAGCGGTGGAGAGCGTTCAGCTTCGCCCTCGCGTCTCGGGATACATTGATAAA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CGCATTGAAGCGGTGGAGAGCGTTCAGCTTCGCCCTCGCGTCTCGGGATACATTGATAAA
+
+GTGAATTACACTGACGGCCAGGAGGTGAAAAAGGGCCAGGTGCTGTTCACGATAGATGAC
+||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||
+GTGAATTACACCGACGGCCAGGAGGTGAAAAAGGGCCAGGTGCTGTTCACGATAGATGAC
+
+AGAACCTATCGCGCCGCGCTGGAGCAGGCGCAGGCGGCGTTGGCAAGAGCCAAAACGCAG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AGAACCTATCGCGCCGCGCTGGAGCAGGCGCAGGCGGCGTTGGCAAGAGCCAAAACGCAG
+
+GCCAGCCTCGCGCAAAGCGAGGCGAACCGCACCGATAAATTAGTCCATACCAACCTCGTC
+|||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||
+GCCAGCCTGGCGCAAAGCGAGGCGAACCGCACCGATAAATTAGTCCATACCAACCTCGTC
+
+TCCCGTGAAGAGTGGGAGCAGCGCCGGTCAGCCGCGGTTCAGGCGCAGGCCGACATTCGC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+TCCCGTGAAGAGTGGGAGCAGCGCCGGTCAGCCGCGGTTCAGGCGCAGGCCGACATTCGC
+
+GCCGCGCAGGCGGCGGTGGATGCCGCGCAGCTTAACCTCGACTTCACCAAAGTGACCGCC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GCCGCGCAGGCGGCGGTGGATGCCGCGCAGCTTAACCTCGACTTCACCAAAGTGACCGCC
+
+CCTATTGACGGCCGCGCCAGCCGGGCGCTGATCACCAGCGGTAACCTGGTCACCGCGGGC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CCTATTGACGGCCGCGCCAGCCGGGCGCTGATCACCAGCGGTAACCTGGTCACCGCGGGC
+
+GACACCGCCAGCGTGCTCACCACCCTGGTCTCGCAAAAGACGGTGTACGTCTACTTTGAC
+||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||
+GACACCGCCAGCGTGCTCACCACCCTGGTCTCGCAGAAGACGGTGTACGTCTACTTTGAC
+
+GTCGACGAGTCAACCTACCTCCACTATCAAAACCTCGCCCGCCGCGGGCAAGGCGCGTCC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GTCGACGAGTCAACCTACCTCCACTATCAAAACCTCGCCCGCCGCGGGCAAGGCGCGTCC
+
+AGCGATAATCAGGCGCTCCCGGTGGAGATTGGCCTGGTGGGCGAGGAGGGTTACCCCCAC
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AGCGATAATCAGGCGCTCCCGGTGGAGATTGGCCTGGTGGGCGAGGAGGGTTACCCCCAC
+
+CAGGGCAAAGTGGATTTTCTCGATAATCAGTTAACGCCGAGTACCGGCACCATCCGCATG
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CAGGGCAAAGTGGATTTTCTCGATAATCAGTTAACGCCGAGTACCGGCACCATCCGCATG
+
+CGTGCGCTGCTGGATAACTCGCAGCGTCTGTTCACGCCGGGGCTGTTTGCCCGCGTGCGT
+|||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||
+CGTGCGCTGCTGGATAACTCGCAGCGTCTGTTCACGCCAGGGCTGTTTGCCCGCGTGCGT
+
+CTGCCGGGCAGCGCAGAGTTCAAAGCCACGCTGATCGACGACAAAGCGGTACTGACCGAT
+|||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||
+CTGCCGGGCAGCGCAGAGTTCAAAGCCACGCTTATCGACGACAAAGCGGTACTGACCGAT
+
+CAGGATCGTAAATACGTCTATATCGTTGATAAAGATGGTAAAGCACAGCGCCGCGACATT
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+CAGGATCGTAAATACGTCTATATCGTTGATAAAGATGGTAAAGCACAGCGCCGCGACATT
+
+ACCCCAGGGCGGCTGGCAGACGGTTTACGCATCGTTCAGAAGGGGTTGAATCCTGGGGAT
+| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ATCCCAGGGCGGCTGGCAGACGGTTTACGCATCGTTCAGAAGGGGTTGAATCCTGGGGAT
+
+AGCGTCATCGTCGACGGCTTACAAAAAGTGTTTATGCCGGGTATGCCGGTTAACGCCAAA
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+AGCGTCATCGTCGACGGCTTACAAAAAGTGTTTATGCCGGGTATGCCGGTTAACGCCAAA
+
+ACCGTTGCCATGACCTCCAGCGCCACCCTTAACTGA
+||||||||||||||||||||||||||||||||||||
+ACCGTTGCCATGACCTCCAGCGCCACCCTTAACTGA
+
+

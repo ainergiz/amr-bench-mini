@@ -1,0 +1,7 @@
+{
+  "display_name": "gemini_batch_smoke_20260426T114739Z",
+  "n_requests": 5,
+  "name": "batches/7jw5w6dgflemgw8ieg7fr4augmk1051u0mvb",
+  "state": "JobState.JOB_STATE_PENDING",
+  "submitted_utc": "2026-04-26T11:47:42.092559+00:00"
+}

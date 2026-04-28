@@ -1,0 +1,28 @@
+{
+  "by_track": {
+    "dbreconcile": {
+      "accuracy": 1.0,
+      "json_valid_rate": 1.0,
+      "mean_evidence_items": 2.0405,
+      "n": 987
+    },
+    "genopheno": {
+      "accuracy": 0.7386,
+      "json_valid_rate": 1.0,
+      "mean_evidence_items": 4.7352,
+      "n": 1201
+    },
+    "mechreason": {
+      "accuracy": 1.0,
+      "json_valid_rate": 1.0,
+      "mean_evidence_items": 5.1991,
+      "n": 924
+    }
+  },
+  "overall": {
+    "accuracy": 0.8991,
+    "json_valid_rate": 1.0,
+    "mean_evidence_items": 4.0183,
+    "n": 3112
+  }
+}
