@@ -49,12 +49,13 @@ We introduce AMR-Bench-mini, a focused diagnostic benchmark for agentic
 mechanistic antimicrobial-resistance (AMR) reasoning, scoped strictly to
 retrospective evidence synthesis on \emph{Klebsiella pneumoniae}. The benchmark
 pairs a 924-task corpus generated from public isolate metadata, genome
-assemblies, laboratory AST, and pinned annotation outputs with two evaluation
-splits: a balanced 50-task pilot and a 50-task hard diagnostic split organised
-into seven category-level failure modes. We document a stratified
+assemblies, laboratory antimicrobial-susceptibility testing (AST), and pinned
+annotation outputs with two evaluation splits: a balanced 50-task pilot and a
+50-task hard diagnostic split organised into seven category-level failure
+modes. We document a stratified
 audit-and-fix loop that lifts heuristic gold credibility from 71\,\% to
-93\,\%, with four further disagreements flagged by all-vendor consensus
-and reviewed as candidate gold errors. Three
+93\,\%, with four further cases where all three models agreed against the
+heuristic gold and were reviewed as candidate gold errors. Three
 frontier models (GPT-5.4, Gemini~3.1~Pro, Claude~Opus~4.7) score 82--88\,\% on
 the pilot and 50--64\,\% on the hard split. All three converge on
 $\sim$25\,\% accuracy on the abstention category, while contrastive-control
