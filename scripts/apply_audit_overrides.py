@@ -17,9 +17,9 @@ Behavior:
     the override summary with the auditor's note so the paper can carve out
     these cases for separate analysis.
 
-The override summary is the audit trail — keep it under version control so
+The override summary is the audit trail; keep it under version control so
 the published benchmark documents which heuristic labels were corrected by
-microbiologist review.
+biological mechanism review.
 """
 from __future__ import annotations
 

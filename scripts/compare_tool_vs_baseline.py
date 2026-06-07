@@ -185,11 +185,11 @@ def main() -> None:
         "failure on Gemini 3.1 Pro. The four-percentage-point gain on "
         "`hypothesisgen_insufficient_evidence` is offset one-for-one by losses on "
         "neighboring categories. This supports the framing that the abstention "
-        "failure is a *calibration* problem, not a *retrieval* problem — adding the "
-        "substrate-coverage facts to the prompt does not make the model recognize "
-        "that the visible evidence is insufficient. The paper's claim should be: "
-        "tool augmentation by substrate retrieval is necessary but not sufficient "
-        "for evidence-sufficiency reasoning.",
+        "failure is a *calibration* problem, not a *retrieval-only* problem: adding "
+        "substrate-coverage facts to the prompt does not make the model reliably "
+        "recognize that visible evidence is insufficient. The paper's claim should "
+        "be narrower: CARD substrate context alone is not sufficient for "
+        "evidence-sufficiency reasoning in this prompt-only setting.",
         "",
     ]
     OUT_MD.write_text("\n".join(lines))

@@ -10,6 +10,7 @@
 # Local agent/editor state
 .claude/
 .context/
+working-notes/
 
 # Python
 .venv/
@@ -28,6 +29,13 @@ paper/*.fls
 paper/*.log
 paper/*.out
 paper/*.synctex.gz
+paper/*_fm4ls.*
+
+# Generated run logs and bulky tool intermediates.
+logs/
+outputs/resfinder/*/resfinder_blast/tmp/
+outputs/agent_trial_step*.md
+outputs/mechreason_trial.md
 
 # OS/editor noise
 *.swp

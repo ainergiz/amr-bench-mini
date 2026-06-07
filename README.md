@@ -1,11 +1,31 @@
 # AMR-Bench-mini
 
 AMR-Bench-mini is a focused pilot benchmark for agentic antimicrobial-resistance
-reasoning. It is intentionally scoped to retrospective evidence synthesis, not
-clinical decision support and not antibiotic design.
+reasoning, accepted as a poster paper at the FM4LS workshop at ICML 2026. It is
+intentionally scoped to retrospective evidence synthesis, not clinical decision
+support and not antibiotic design.
 
 The current pilot uses public *Klebsiella pneumoniae* isolate metadata, genome
 assemblies, laboratory AST records, and precomputed AMR annotation outputs.
+
+## Paper
+
+The camera-ready FM4LS @ ICML 2026 workshop paper is in `paper/`:
+
+- `paper/paper.pdf`: compiled camera-ready PDF.
+- `paper/paper.tex`: source for the paper.
+- `paper/README.md`: paper build notes and source mapping for reported numbers.
+
+## Repository Map
+
+- `data/`: frozen public pilot inputs and generated task JSONL files.
+- `outputs/`: processed annotator outputs and provenance snapshots used by the
+  task builder.
+- `results/`: baseline, model-run, audit, and paper-table artifacts.
+- `scripts/`: task construction, scoring, audit, table-building, and evaluation
+  entry points.
+- `src/amr_bench/`: library code used by the scripts and tests.
+- `tests/`: unit tests for task construction, scoring, and utility behavior.
 
 ## Tracks
 
@@ -63,6 +83,7 @@ benchmark across species.
 From this directory:
 
 ```bash
+python3 -m pip install -e .
 python3 scripts/build_tasks.py
 python3 scripts/run_baselines.py
 python3 scripts/make_manual_audit.py
@@ -80,6 +101,13 @@ results/rule_baseline.jsonl
 results/rule_baseline_summary.json
 results/rule_baseline_summary.md
 results/manual_audit.tsv
+```
+
+To rebuild the paper PDF:
+
+```bash
+cd paper
+latexmk -pdf -interaction=nonstopmode paper.tex
 ```
 
 ## Safety Scope
@@ -112,3 +140,7 @@ under `cost_estimate_usd`, computed from `src/amr_bench/pricing.py`. Provider
 prices that the local table cannot resolve are flagged with a `note`; supply
 prices via `AMR_BENCH_PRICING_OVERRIDES=path/to/prices.json` to attach a
 local list price without editing the table.
+
+The published model calls used provider defaults with a shared output-token cap;
+explicit reasoning-effort or thinking-budget sweeps were not run. Provider
+reported reasoning/thought-token buckets are logged when exposed by the API.

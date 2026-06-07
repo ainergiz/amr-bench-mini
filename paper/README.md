@@ -1,35 +1,34 @@
-# Paper draft — AMR-Bench-mini
+# Paper camera-ready draft — AMR-Bench-mini
 
-**Target:** GenBio @ ICML 2026 (4-page short paper)
-**Deadline:** 2026-05-01 AOE
+**Target:** FM4LS @ ICML 2026 (workshop poster paper)
+**OpenReview status:** ICML 2026 FM4LS Workshop Poster, published 2026-05-28
+**Camera-ready style:** ICML 2026 template, using
+`\usepackage[accepted]{icml2026}` with the accepted notice adjusted for the
+FM4LS workshop.
 
 ## Files
 
-- `paper.tex` — full short-paper draft built directly with the GenBio-linked
-  ICML 2026 style.
+- `paper.tex` — full camera-ready workshop paper built with the ICML 2026
+  style.
 - `icml2026.sty`, `icml2026.bst`, `fancyhdr.sty`, `algorithm.sty`,
-  `algorithmic.sty` — copied from the official GenBio Overleaf template
-  linked in the CFP.
-- `refs.bib` — verified bibliography entries derived from
-  `genbio-litreview.md`, with DOI and venue details checked for submission.
-- Figure 1 — inline TikZ UpSet-style failure-overlap diagram in `paper.tex`.
+  `algorithmic.sty` — ICML 2026 style files, with the accepted notice updated
+  for the FM4LS camera-ready.
+- `refs.bib` — verified bibliography entries derived from the project
+  literature-review notes, with DOI and venue details checked for submission.
+- Tables 1--2 — headline split and hard-category results generated from the
+  checked-in result artifacts.
 
 ## Building
 
-The GenBio CFP links the read-only Overleaf template at
-<https://www.overleaf.com/read/dnjfbdnypxwn>. The official style files are now
-checked into this directory for local builds. Rechecked against a fresh
-download from that Overleaf project on 2026-04-26; `icml2026.sty`,
-`icml2026.bst`, `fancyhdr.sty`, `algorithm.sty`, and `algorithmic.sty`
-matched byte-for-byte.
+The style files are checked into this directory for local builds. The accepted
+notice in `icml2026.sty` is workshop-specific and names FM4LS rather than the
+main ICML/PMLR proceedings.
 
 ```bash
 cd paper && latexmk -pdf -interaction=nonstopmode paper.tex
 ```
 
-Current official-template build: 5 PDF pages total, with technical body on
-pages 1--4 and references beginning on page 4. GenBio excludes references and
-appendices from the 4-page short-paper limit.
+Current official-template build: 5 PDF pages total.
 
 ## Numbers in the paper, with their source
 

@@ -4,7 +4,7 @@ This directory contains the current AMR-Bench-mini pilot data.
 
 ## Files
 
-- `metadata.json`: BV-BRC isolate metadata for 10 *Klebsiella pneumoniae*
+- `metadata.json`: BV-BRC isolate metadata for 60 *Klebsiella pneumoniae*
   isolates.
 - `ast.json`: laboratory AST records from BV-BRC.
 - `fasta/`: local genome assembly FASTA files.
